@@ -1,0 +1,43 @@
+{
+  "name": "@waiting/eslint-config",
+  "author": "waiting",
+  "version": "0.0.1",
+  "description": "ESLint Shareable Configuration for Typescrpt",
+  "keywords": [
+    "ECMAScript Style",
+    "code style",
+    "eslint",
+    "eslintconfig",
+    "tslint",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "bin": {},
+  "browser": "",
+  "es2015": "",
+  "main": "index.js",
+  "module": "",
+  "types": "",
+  "bugs": {
+    "url": "https://github.com/waitingsong/eslint-config/issues"
+  },
+  "homepage": "https://github.com/waitingsong/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waitingsong/eslint-config.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": ">=6.0.0"
+  },
+  "scripts": {
+    "release": "standard-version -r"
+  }
+}
