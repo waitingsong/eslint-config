@@ -18,10 +18,12 @@
 ## 安装
 ```sh
 npm i -D @waiting/eslint-config \
-    @typescript-eslint/eslint-plugin \
-    @typescript-eslint/eslint-plugin-tslint \
-    @typescript-eslint/parser \
-    eslint
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/eslint-plugin-tslint \
+  @typescript-eslint/parser \
+  eslint \
+  eslint-plugin-import \
+
 ```
 
 
@@ -29,7 +31,7 @@ npm i -D @waiting/eslint-config \
 共享配置用于 `.eslintrc.*` 文件 `extends` 项目，详细文档见 [Shareable Configs](https://cn.eslint.org/docs/developer-guide/shareable-configs)
 
 添加以下内容到你的 `.eslintrc.*` 文件：
-- `.eslintrc.yaml` 
+- `.eslintrc.yml` 
   ```yml
   extends: '@waiting/eslint-config' 
   ```
@@ -41,9 +43,9 @@ npm i -D @waiting/eslint-config \
   ```
 
 你可以在 `.eslintrc.*` 文件中覆盖共享配置中的设置。
-并且可以添加在如 `./test` 目录下添加文件 `.eslintrc.yaml` 使用较少规则以便提高检查速度：
+并且可以添加在如 `./test` 目录下添加文件 `.eslintrc.yml` 使用较少规则以便提高检查速度：
 ```yml
-# .eslintrc.yaml
+# .eslintrc.yml
 extends: '@waiting/eslint-config/recommended'
 ```
 

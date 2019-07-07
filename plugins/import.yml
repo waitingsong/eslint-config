@@ -1,0 +1,47 @@
+---
+extends:
+  - plugin:import/errors
+  - plugin:import/warnings
+  - plugin:import/typescript  # this line does the trick
+
+
+rules:
+  # https://github.com/benmosher/eslint-plugin-import#static-analysis
+  import/default: 2
+  import/named: 2
+  import/namespace: 2
+  import/no-unresolved: [2, {"amd": true, "commonjs": true}]
+  import/no-absolute-path: 2
+  import/no-cycle: 2
+  import/no-self-import: 2
+  import/no-useless-path-segments: 2
+  import/no-webpack-loader-syntax: 2
+
+  # https://github.com/benmosher/eslint-plugin-import#helpful-warnings
+  import/export: 2
+  import/no-deprecated: 1
+  import/no-mutable-exports: 2
+  import/no-named-as-default: 2
+  import/no-named-as-default-member: 2
+
+  # https://github.com/benmosher/eslint-plugin-import#style-guide
+  import/exports-last: 2
+  import/first: 2
+  import/max-dependencies: [1, {"max": 10}]
+  import/newline-after-import: [1, { "count": 2 } ]
+  import/no-default-export: 0
+  import/no-duplicates: 1
+  import/no-extraneous-dependencies: 2
+  import/no-named-default: 2
+  import/no-namespace: 1
+  import/order: 
+    - 1
+    - 
+      groups:
+        - builtin
+        - external
+        - parent
+        - sibling
+        - index
+      newlines-between: always
+

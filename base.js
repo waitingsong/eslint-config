@@ -5,6 +5,9 @@ module.exports = {
     es6: true,
     node: true,
   },
+  extends: [
+    "./plugins/import.yml",
+  ],
   globals: {
     Atomics: 'readonly',
     document: 'readonly',
@@ -25,8 +28,5 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   root: true,
-  rules: {
-    "require-atomic-updates": 0,
-  }
 }
 

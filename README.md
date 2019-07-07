@@ -1,6 +1,6 @@
 # eslint-config
 
-#### An strict [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) [Shareable Config](https://eslint.org/docs/developer-guide/shareable-configs) for instead of [TSlint](https://github.com/palantir/tslint)
+#### A strict [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) [Shareable Config](https://eslint.org/docs/developer-guide/shareable-configs) for instead of [TSlint](https://github.com/palantir/tslint)
 
 [![Version](https://img.shields.io/npm/v/@waiting/eslint-config.svg)](https://www.npmjs.com/package/@waiting/eslint-config)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -18,10 +18,12 @@
 ## Install
 ```sh
 npm i -D @waiting/eslint-config \
-    @typescript-eslint/eslint-plugin \
-    @typescript-eslint/eslint-plugin-tslint \
-    @typescript-eslint/parser \
-    eslint
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/eslint-plugin-tslint \
+  @typescript-eslint/parser \
+  eslint \
+  eslint-plugin-import \
+
 ```
 
 
@@ -32,7 +34,7 @@ You can learn more about
 official ESLint website.
 
 Add this to your `.eslintrc.*` file:
-- `.eslintrc.yaml` 
+- `.eslintrc.yml` 
   ```yml
   extends: '@waiting/eslint-config' 
   ```
@@ -45,9 +47,9 @@ Add this to your `.eslintrc.*` file:
 
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc.*` file.
-And add file `.eslintrc.yaml` under the folder such as `./test` for fast linting with less strict rules:
+And add file `.eslintrc.yml` under the folder such as `./test` for fast linting with less strict rules:
 ```yml
-# .eslintrc.yaml
+# .eslintrc.yml
 extends: '@waiting/eslint-config/recommended'
 ```
 

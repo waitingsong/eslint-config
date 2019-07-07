@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './recommended.js',
+    "./recommended.js",
   ],
   rules: {
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
@@ -87,6 +87,5 @@ module.exports = {
     "prefer-rest-params": 1,
     "prefer-spread": 1,
     "rest-spread-spacing": [1, "never"],
-    "sort-imports": [1],
   }
 }

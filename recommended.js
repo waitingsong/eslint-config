@@ -6,6 +6,9 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
   ],
   rules: {
+    "sort-imports": 0,
+    "require-atomic-updates": 0,
+
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
     "@typescript-eslint/array-type": [2, "array-simple"],
     "@typescript-eslint/camelcase": 0,
