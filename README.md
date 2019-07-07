@@ -9,13 +9,16 @@
 
 ## Features
 - `@waiting/eslint-config/recommended` extends and customize from
-  - `eslint:recommended`,
-  - `@typescript-eslint/eslint-recommended`,
-  - `@typescript-eslint/recommended`,
+  - `eslint-plugin-import`
+  - `eslint:recommended`
+  - `@typescript-eslint/eslint-recommended`
+  - `@typescript-eslint/recommended`
 - `@waiting/eslint-config` extends `@waiting/eslint-config/recommended` and enable more strict rules
 
 
 ## Install
+
+### local
 ```sh
 npm i -D @waiting/eslint-config \
   @typescript-eslint/eslint-plugin \
@@ -23,7 +26,17 @@ npm i -D @waiting/eslint-config \
   @typescript-eslint/parser \
   eslint \
   eslint-plugin-import \
+```
 
+### global
+```sh
+npm i -g @typescript-eslint/eslint-plugin \
+  @typescript-eslint/eslint-plugin-tslint \
+  @typescript-eslint/parser \
+  eslint@latest \
+  eslint-plugin-import
+
+npm i -D @waiting/eslint-config 
 ```
 
 
@@ -53,12 +66,26 @@ And add file `.eslintrc.yml` under the folder such as `./test` for fast linting 
 extends: '@waiting/eslint-config/recommended'
 ```
 
+## Linting
+
+### local installation
+```sh
+eslint src/**/*.ts
+eslint src/**/*.{ts,js}
+```
+
+### global installation
+```sh
+# pkg.script.lint: "eslint src/**/*.ts"
+npm run lint -- --resolve-plugins-relative-to=$(npm prefix -g)
+```
+
 
 ## Learn more
 - [ESlint](https://eslint.org/)
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 - [TSLint will be deprecated](https://github.com/palantir/tslint/issues/4534)
-
+- [Eslint: Migrating to v6.0.0](https://eslint.org/docs/user-guide/migrating-to-6.0.0#package-loading-simplification)
 
 ## License
 [MIT](LICENSE)

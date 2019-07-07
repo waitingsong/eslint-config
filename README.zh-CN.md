@@ -9,13 +9,16 @@
 
 ## 功能
 - `@waiting/eslint-config/recommended` 扩展并定制于以下规则
-  - `eslint:recommended`,
-  - `@typescript-eslint/eslint-recommended`,
-  - `@typescript-eslint/recommended`,
+  - `eslint-plugin-import`
+  - `eslint:recommended`
+  - `@typescript-eslint/eslint-recommended`
+  - `@typescript-eslint/recommended`
 - `@waiting/eslint-config` 扩展于 `@waiting/eslint-config/recommended` 并开启更多限制规则
 
 
 ## 安装
+
+### 本地
 ```sh
 npm i -D @waiting/eslint-config \
   @typescript-eslint/eslint-plugin \
@@ -23,7 +26,17 @@ npm i -D @waiting/eslint-config \
   @typescript-eslint/parser \
   eslint \
   eslint-plugin-import \
+```
 
+### 全局
+```sh
+npm i -g @typescript-eslint/eslint-plugin \
+  @typescript-eslint/eslint-plugin-tslint \
+  @typescript-eslint/parser \
+  eslint@latest \
+  eslint-plugin-import
+
+npm i -D @waiting/eslint-config 
 ```
 
 
@@ -50,10 +63,25 @@ extends: '@waiting/eslint-config/recommended'
 ```
 
 
+## 检查
+
+### 本地安装
+```sh
+eslint src/**/*.ts
+eslint src/**/*.{ts,js}
+```
+
+### 全局安装
+```sh
+# pkg.script.lint: "eslint src/**/*.ts"
+npm run lint -- --resolve-plugins-relative-to=$(npm prefix -g)
+```
+
 ## Learn more
 - [ESlint](https://cn.eslint.org/)
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 - [TSLint will be deprecated](https://github.com/palantir/tslint/issues/4534)
+- [Eslint: Migrating to v6.0.0](https://eslint.org/docs/user-guide/migrating-to-6.0.0#package-loading-simplification)
 
 
 ## License
