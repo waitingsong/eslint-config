@@ -7,7 +7,7 @@ module.exports = {
     "@typescript-eslint/await-thenable": 2, 
     "@typescript-eslint/member-ordering": [2],
     "@typescript-eslint/no-empty-function": 2,
-    "@typescript-eslint/no-explicit-any": [2, { "ignoreRestArgs": true }],
+    "@typescript-eslint/no-explicit-any": [1, { "ignoreRestArgs": true }],
     "@typescript-eslint/no-extraneous-class": 2,
     "@typescript-eslint/no-floating-promises": 2,
     "@typescript-eslint/no-for-in-array": 2,
