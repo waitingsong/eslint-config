@@ -100,7 +100,7 @@ module.exports = {
     "lines-between-class-members": [1, "always"],
     "max-params": [2, {"max": 4}],
     "new-parens": [1],
-    "newline-per-chained-call": [1, {"ignoreChainWithDepth": 2}],
+    "newline-per-chained-call": [1, {"ignoreChainWithDepth": 6}],
     "no-lonely-if": 1,
     "no-mixed-spaces-and-tabs": 2,
     "no-multiple-empty-lines": [1, {"max": 4, "maxBOF": 1, "maxEOF": 1}],
