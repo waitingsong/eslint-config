@@ -58,7 +58,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": [0],
     "no-extra-parens": 0,
     "@typescript-eslint/no-extra-parens": 2,
-    "@typescript-eslint/no-object-literal-type-assertion": [2, { allowAsParameter: true }],
+    "@typescript-eslint/no-object-literal-type-assertion": [0, { allowAsParameter: true }],
     "@typescript-eslint/no-parameter-properties": 0,
     "@typescript-eslint/no-unnecessary-qualifier": 2,
     "semi": 0,
