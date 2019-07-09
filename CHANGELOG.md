@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/waitingsong/eslint-config/compare/v1.1.0...v1.2.0) (2019-07-09)
+
+
+### Features
+
+* **recommended:** increase ignoreChainWithDepth to 6 ([3176754](https://github.com/waitingsong/eslint-config/commit/3176754))
+
+
+
 ## [1.1.0](https://github.com/waitingsong/eslint-config/compare/v1.0.0...v1.1.0) (2019-07-08)
 
 
