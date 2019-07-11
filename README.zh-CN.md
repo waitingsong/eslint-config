@@ -10,6 +10,7 @@
 ## 功能
 - `@waiting/eslint-config/recommended` 扩展并定制于以下规则
   - `eslint-plugin-import`
+  - `eslint-plugin-unicorn`
   - `eslint:recommended`
   - `@typescript-eslint/eslint-recommended`
   - `@typescript-eslint/recommended`
