@@ -18,25 +18,8 @@
 
 ## Install
 
-### local
 ```sh
-npm i -D @waiting/eslint-config \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/eslint-plugin-tslint \
-  @typescript-eslint/parser \
-  eslint \
-  eslint-plugin-import \
-```
-
-### global
-```sh
-npm i -g @typescript-eslint/eslint-plugin \
-  @typescript-eslint/eslint-plugin-tslint \
-  @typescript-eslint/parser \
-  eslint@latest \
-  eslint-plugin-import
-
-npm i -D @waiting/eslint-config 
+npm i -D @waiting/eslint-config eslint
 ```
 
 
@@ -68,16 +51,9 @@ extends: '@waiting/eslint-config/recommended'
 
 ## Linting
 
-### local installation
 ```sh
-eslint src/**/*.ts
+eslint --fix src/**/*.ts
 eslint src/**/*.{ts,js}
-```
-
-### global installation
-```sh
-# pkg.script.lint: "eslint src/**/*.ts"
-npm run lint -- --resolve-plugins-relative-to=$(npm prefix -g)
 ```
 
 

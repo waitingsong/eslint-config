@@ -18,25 +18,8 @@
 
 ## 安装
 
-### 本地
 ```sh
-npm i -D @waiting/eslint-config \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/eslint-plugin-tslint \
-  @typescript-eslint/parser \
-  eslint \
-  eslint-plugin-import \
-```
-
-### 全局
-```sh
-npm i -g @typescript-eslint/eslint-plugin \
-  @typescript-eslint/eslint-plugin-tslint \
-  @typescript-eslint/parser \
-  eslint@latest \
-  eslint-plugin-import
-
-npm i -D @waiting/eslint-config 
+npm i -D @waiting/eslint-config eslint
 ```
 
 
@@ -65,17 +48,11 @@ extends: '@waiting/eslint-config/recommended'
 
 ## 检查
 
-### 本地安装
 ```sh
-eslint src/**/*.ts
+eslint --fix src/**/*.ts
 eslint src/**/*.{ts,js}
 ```
 
-### 全局安装
-```sh
-# pkg.script.lint: "eslint src/**/*.ts"
-npm run lint -- --resolve-plugins-relative-to=$(npm prefix -g)
-```
 
 ## Learn more
 - [ESlint](https://cn.eslint.org/)

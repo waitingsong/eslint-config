@@ -29,14 +29,15 @@
     "url": "git+https://github.com/waitingsong/eslint-config.git"
   },
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {},
-  "peerDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/eslint-plugin-tslint": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
-    "eslint": ">=6.0.0",
     "eslint-plugin-import": "^2.18.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "eslint": ">=6.0.0"
   },
   "scripts": {
     "release": "standard-version -r"
