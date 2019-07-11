@@ -87,5 +87,8 @@ module.exports = {
     "prefer-rest-params": 1,
     "prefer-spread": 1,
     "rest-spread-spacing": [1, "never"],
+
+    # https://github.com/benmosher/eslint-plugin-import
+    "import/no-extraneous-dependencies": [2, {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
   }
 }
