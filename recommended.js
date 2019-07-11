@@ -61,6 +61,8 @@ module.exports = {
     "@typescript-eslint/no-object-literal-type-assertion": [0, { allowAsParameter: true }],
     "@typescript-eslint/no-parameter-properties": 0,
     "@typescript-eslint/no-unnecessary-qualifier": 2,
+    "no-use-before-define": 0,
+    "@typescript-eslint/no-use-before-define": [2, { "functions": false, "typedefs": false }],
     "semi": 0,
     "@typescript-eslint/semi": [1, "never", { beforeStatementContinuationChars: "always" }],
 
