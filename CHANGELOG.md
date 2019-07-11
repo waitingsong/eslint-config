@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/waitingsong/eslint-config/compare/v1.5.0...v1.6.0) (2019-07-11)
+
+
+### Features
+
+* **recommended:** disable rules import/exports-last, import/no-namespace ([2fd5d2f](https://github.com/waitingsong/eslint-config/commit/2fd5d2f))
+* update rule import/no-extraneous-dependencies ([70857b5](https://github.com/waitingsong/eslint-config/commit/70857b5))
+
+
+
 ## [1.5.0](https://github.com/waitingsong/eslint-config/compare/v1.4.0...v1.5.0) (2019-07-11)
 
 
