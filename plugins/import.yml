@@ -25,7 +25,7 @@ rules:
   import/no-named-as-default-member: 2
 
   # https://github.com/benmosher/eslint-plugin-import#style-guide
-  import/exports-last: 2
+  import/exports-last: 0
   import/first: 2
   import/max-dependencies: [1, {"max": 10}]
   import/newline-after-import: [1, { "count": 2 } ]
@@ -33,7 +33,7 @@ rules:
   import/no-duplicates: 1
   import/no-extraneous-dependencies: 2
   import/no-named-default: 2
-  import/no-namespace: 1
+  import/no-namespace: 0
   import/order: 
     - 1
     - 
