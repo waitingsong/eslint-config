@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/waitingsong/eslint-config/compare/v1.6.1...v1.7.0) (2019-07-15)
+
+
+### Features
+
+* **recommended:** set rule of import/no-extraneous-dependencies off ([0d3d1c3](https://github.com/waitingsong/eslint-config/commit/0d3d1c3))
+* **strict:** decrease max-len to 120 ([cab0881](https://github.com/waitingsong/eslint-config/commit/cab0881))
+
+
+
 ### [1.6.1](https://github.com/waitingsong/eslint-config/compare/v1.6.0...v1.6.1) (2019-07-11)
 
 
