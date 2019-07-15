@@ -38,6 +38,7 @@ module.exports = {
     "no-console": [1, { "allow": ["warn", "error"] }],
     "no-floating-decimal": 2,
     "no-implied-eval": 2,
+    "no-loop-func": 2,
     "no-multi-str": 2,
     "no-new-wrappers": 2,
     "no-octal-escape": 2,
