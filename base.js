@@ -5,9 +5,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: [
-    "./plugins/import.yml",
-  ],
+  extends: ['./plugins/import.yml'],
   globals: {
     Atomics: 'readonly',
     document: 'readonly',

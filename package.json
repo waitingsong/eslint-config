@@ -36,11 +36,17 @@
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-unicorn": "^9.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "tape": "^4.8.0",
+    "typescript": "^3.5.0"
+  },
   "peerDependencies": {
     "eslint": ">=6.0.0"
   },
   "scripts": {
+    "lint": "eslint --fix . --config=recommended.js",
+    "test": "npm run lint && tape test/*.js",
     "release": "standard-version -r"
   }
 }
