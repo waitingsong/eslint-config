@@ -59,7 +59,7 @@ module.exports = {
     "max-depth": [2, { "max": 4 }],
     "max-len": [2, 
       {
-        "code": 140,
+        "code": 120,
         "tabWidth": 2,
         "ignoreComments": true,
         "ignoreTrailingComments": true,
