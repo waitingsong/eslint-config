@@ -76,6 +76,7 @@ module.exports = {
     "no-unmodified-loop-condition": 2,
 
     // https://eslint.org/docs/rules/#variables
+    "no-restricted-globals": [2, 'isFinite', 'isNaN'],
     "no-shadow": 2,
 
     // https://eslint.org/docs/rules/#stylistic-issues
