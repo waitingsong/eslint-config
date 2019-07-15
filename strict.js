@@ -42,6 +42,7 @@ module.exports = {
     "no-multi-str": 2,
     "no-new-wrappers": 2,
     "no-octal-escape": 2,
+    "no-param-reassign": 2,
     "no-return-assign": 2,
     "no-return-await": 2,
     "no-self-compare": 2,
