@@ -163,7 +163,7 @@ module.exports = {
 
     // https://eslint.org/docs/rules/#ecmascript-6
     "arrow-body-style": [1, "as-needed", { "requireReturnForObjectLiteral": true }],
-    "arrow-parens": [1, "as-needed"],
+    "arrow-parens": [1, "as-needed", { requireForBlockBody: true }],
     "arrow-spacing": 1,
     "no-confusing-arrow": [1, {"allowParens": true}],
     "no-duplicate-imports": 2,
