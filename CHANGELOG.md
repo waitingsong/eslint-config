@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/waitingsong/eslint-config/compare/v1.7.0...v1.8.0) (2019-07-15)
+
+
+### Features
+
+* **recommended:** change template-curly-spacing to default "never" ([b086397](https://github.com/waitingsong/eslint-config/commit/b086397))
+* **recommended:** set no-restricted-globals "error" ([391ebbe](https://github.com/waitingsong/eslint-config/commit/391ebbe))
+* **recommended:** update arrow-parens ([0b736c9](https://github.com/waitingsong/eslint-config/commit/0b736c9))
+* **strict:** set id-length min:2 ([07a67ab](https://github.com/waitingsong/eslint-config/commit/07a67ab))
+* **strict:** set no-loop-func to error ([21c1ec7](https://github.com/waitingsong/eslint-config/commit/21c1ec7))
+* **strict:** set no-param-reassign to error ([a3acd8d](https://github.com/waitingsong/eslint-config/commit/a3acd8d))
+
+
+### Tests
+
+* with --fix ([2e0aab1](https://github.com/waitingsong/eslint-config/commit/2e0aab1))
+
+
+
 ## [1.7.0](https://github.com/waitingsong/eslint-config/compare/v1.6.1...v1.7.0) (2019-07-15)
 
 
