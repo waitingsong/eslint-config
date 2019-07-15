@@ -157,7 +157,7 @@ module.exports = {
         }
       }
     ],
-    "template-curly-spacing": [1, "always"],
+    "template-curly-spacing": [1, "never"],
     "template-tag-spacing": [1, "never"],
     "unicode-bom": [2, "never"],
 
