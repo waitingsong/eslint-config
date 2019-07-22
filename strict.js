@@ -24,7 +24,7 @@ module.exports = {
     '@typescript-eslint/prefer-includes': 1,
     // "@typescript-eslint/prefer-readonly": 1,
     '@typescript-eslint/prefer-string-starts-ends-with': 2,
-    '@typescript-eslint/promise-function-async': 1,
+    '@typescript-eslint/promise-function-async': 0,
     '@typescript-eslint/require-array-sort-compare': 2,
     '@typescript-eslint/restrict-plus-operands': 2,
     // "@typescript-eslint/strict-boolean-expressions": 2,
