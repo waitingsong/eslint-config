@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/waitingsong/eslint-config/compare/v1.8.0...v1.8.1) (2019-07-22)
+
+
+### Features
+
+* **strict:** set @typescript-eslint/promise-function-async to off ([853d04e](https://github.com/waitingsong/eslint-config/commit/853d04e))
+
+
+
 ## [1.8.0](https://github.com/waitingsong/eslint-config/compare/v1.7.0...v1.8.0) (2019-07-15)
 
 
