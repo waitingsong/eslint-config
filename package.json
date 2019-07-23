@@ -30,19 +30,19 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.11.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^1.11.0",
-    "@typescript-eslint/parser": "^1.11.0",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-unicorn": "^9.1.1"
   },
   "devDependencies": {
-    "eslint": "^6.0.0",
+    "eslint": "^6.1.0",
     "tape": "^4.8.0",
     "typescript": "^3.5.0"
   },
   "peerDependencies": {
-    "eslint": ">=6.0.0"
+    "eslint": ">=6.1.0"
   },
   "scripts": {
     "lint": "eslint --fix . --config=recommended.js",
