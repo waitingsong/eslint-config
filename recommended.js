@@ -10,7 +10,7 @@ module.exports = {
     'require-atomic-updates': 0,
 
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
-    '@typescript-eslint/array-type': [2, 'array-simple'],
+    '@typescript-eslint/array-type': [2, { default: 'array-simple' } ],
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/consistent-type-definitions': [2, 'interface'],
     '@typescript-eslint/explicit-function-return-type': 0,
