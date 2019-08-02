@@ -57,7 +57,7 @@ module.exports = {
     // https://eslint.org/docs/rules/#stylistic-issues
     'consistent-this': 1,
     'id-length': [2, { min: 2, exceptions: ['k', 'v', 'x'] } ],
-    'max-depth': [2, { max: 4 } ],
+    'max-depth': [2, { max: 6 } ],
     'max-len': [
       2,
       {
