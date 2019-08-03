@@ -33,8 +33,8 @@
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/eslint-plugin-tslint": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-unicorn": "^9.1.1"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-unicorn": "^10.0.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
