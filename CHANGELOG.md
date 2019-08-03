@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/waitingsong/eslint-config/compare/v1.9.0...v1.10.0) (2019-08-03)
+
+
+### Features
+
+* **strict:** increase max-depth to 6 ([5486d31](https://github.com/waitingsong/eslint-config/commit/5486d31))
+
+
+
 ## [1.9.0](https://github.com/waitingsong/eslint-config/compare/v1.8.1...v1.9.0) (2019-07-23)
 
 
