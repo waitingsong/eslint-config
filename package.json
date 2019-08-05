@@ -46,6 +46,7 @@
   },
   "scripts": {
     "lint": "eslint --fix . --config=recommended.js",
+    "prepublishOnly": "npm run test",
     "test": "npm run lint && tape test/*.js",
     "release": "standard-version -r"
   }
