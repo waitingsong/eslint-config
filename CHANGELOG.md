@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/waitingsong/eslint-config/compare/v1.10.2...v1.11.0) (2019-08-08)
+
+
+### Features
+
+* **recommended:** set rule arrow-body-style off ([1912dc7](https://github.com/waitingsong/eslint-config/commit/1912dc7))
+
 ### [1.10.2](https://github.com/waitingsong/eslint-config/compare/v1.10.1...v1.10.2) (2019-08-05)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@waiting/eslint-config",
   "author": "waiting",
-  "version": "1.10.2",
+  "version": "1.11.0",
   "description": "ESLint Shareable Configuration for Typescrpt",
   "keywords": [
     "ECMAScript Style",
