@@ -172,7 +172,8 @@ module.exports = {
     'arrow-body-style': [0, 'as-needed', { requireReturnForObjectLiteral: true } ],
     'arrow-parens': [1, 'as-needed', { requireForBlockBody: true } ],
     'arrow-spacing': 1,
-    'no-confusing-arrow': [1, { allowParens: true } ],
+    // conflict with @typescript-eslint/no-extra-parens
+    'no-confusing-arrow': [0, { allowParens: true } ],
     'no-duplicate-imports': 2,
     'no-useless-computed-key': 1,
     'no-useless-rename': 1,
