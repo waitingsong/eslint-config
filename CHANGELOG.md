@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/waitingsong/eslint-config/compare/v1.13.0...v2.0.0) (2019-08-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Merges both no-angle-bracket-type-assertion and no-object-literal-type-assertion into one rule
+
+### Features
+
+* **deps:** update typescript-eslint to v2.0.0 ([ba21cda](https://github.com/waitingsong/eslint-config/commit/ba21cda))
+* use recommended rule consistent-type-assertions ([e830ea6](https://github.com/waitingsong/eslint-config/commit/e830ea6))
+
 ## [1.13.0](https://github.com/waitingsong/eslint-config/compare/v1.12.0...v1.13.0) (2019-08-11)
 
 
