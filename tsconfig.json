@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -16,7 +17,9 @@
     "target": "ES2018"
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "test/*.js",
+    "*.js"
   ],
   "exclude": [
     "**/*.d.ts",
@@ -24,7 +27,6 @@
     "dist",
     "node_modules*",
     "src/app/public",
-    "src/app/views",
-    "test"
+    "src/app/views"
   ]
 }
