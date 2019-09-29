@@ -33,7 +33,7 @@ module.exports = {
     // https://eslint.org/docs/rules/
     'accessor-pairs': 2,
     'no-await-in-loop': 1,
-    'no-console': [1, { allow: ['warn', 'error'] } ],
+    'no-console': [2, { allow: ['warn', 'error', 'info'] } ],
     'no-floating-decimal': 2,
     'no-implied-eval': 2,
     'no-loop-func': 2,
