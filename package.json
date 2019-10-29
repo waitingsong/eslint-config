@@ -44,6 +44,9 @@
   "peerDependencies": {
     "eslint": ">=6.1.0"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "lint": "eslint --fix . --config=recommended.js && eslint --fix . --config=strict.js",
     "postpublish": "git push origin --follow-tags",
