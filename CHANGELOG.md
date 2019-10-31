@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/waitingsong/eslint-config/compare/v2.4.1...v2.5.0) (2019-10-31)
+
+
+### Features
+
+* **recommended:** increase max-params:max to 6 ([c737934](https://github.com/waitingsong/eslint-config/commit/c737934))
+
 ### [2.4.1](https://github.com/waitingsong/eslint-config/compare/v2.4.0...v2.4.1) (2019-10-29)
 
 ## [2.4.0](https://github.com/waitingsong/eslint-config/compare/v2.3.0...v2.4.0) (2019-09-29)
