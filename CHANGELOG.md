@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/waitingsong/eslint-config/compare/v2.5.0...v2.6.0) (2019-12-12)
+
+
+### Features
+
+* **strict:** disable rule @typescript-eslint/member-ordering ([0f12c67](https://github.com/waitingsong/eslint-config/commit/0f12c67cd568c9a0beaf72f5a9eecc8e0a53f837))
+
 ## [2.5.0](https://github.com/waitingsong/eslint-config/compare/v2.4.1...v2.5.0) (2019-10-31)
 
 
