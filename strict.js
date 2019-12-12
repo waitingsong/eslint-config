@@ -3,7 +3,7 @@ module.exports = {
   rules: {
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
     '@typescript-eslint/await-thenable': 2,
-    '@typescript-eslint/member-ordering': [2],
+    '@typescript-eslint/member-ordering': [0],
     '@typescript-eslint/no-empty-function': 2,
     '@typescript-eslint/no-explicit-any': [1, { ignoreRestArgs: true } ],
     '@typescript-eslint/no-extraneous-class': 2,
