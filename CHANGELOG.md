@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/waitingsong/eslint-config/compare/v2.6.0...v2.7.0) (2019-12-25)
+
+
+### Features
+
+* **strict:** update id-length ([b917349](https://github.com/waitingsong/eslint-config/commit/b917349f634dda28568c78a625ec8ea784d74e7d))
+
 ## [2.6.0](https://github.com/waitingsong/eslint-config/compare/v2.5.0...v2.6.0) (2019-12-12)
 
 
