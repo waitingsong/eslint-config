@@ -36,10 +36,10 @@ rules:
   import/no-namespace: 0
   import/order: 
     - 1
-    - 
-      groups:
+    - groups:
         - builtin
         - external
+        - internal
         - parent
         - sibling
         - index
