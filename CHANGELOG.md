@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/waitingsong/eslint-config/compare/v2.7.1...v3.0.0) (2020-02-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** requires node.js v10+
+
+### Features
+
+* **deps:** update eslint-plugin-unicorn to v16 ([c83c4fe](https://github.com/waitingsong/eslint-config/commit/c83c4fe4a0c87b62ffccfd5580feb4658a29a4d7))
+
 ### [2.7.1](https://github.com/waitingsong/eslint-config/compare/v2.7.0...v2.7.1) (2020-02-12)
 
 
