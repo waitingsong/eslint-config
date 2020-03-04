@@ -30,10 +30,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.12.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.12.0",
-    "@typescript-eslint/parser": "^2.12.0",
-    "eslint-plugin-import": "^2.19.0",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-unicorn": "^16.0.0"
   },
   "devDependencies": {
