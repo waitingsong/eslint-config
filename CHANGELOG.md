@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/waitingsong/eslint-config/compare/v3.0.0...v3.1.0) (2020-03-17)
+
+
+### Features
+
+* **deps:** bump versions ([35bdaab](https://github.com/waitingsong/eslint-config/commit/35bdaabe9cf72f22ddfe9bb0408bd97f988bcfd5))
+* **deps:** remove @typescript-eslint/eslint-plugin-tslint ([7f62f12](https://github.com/waitingsong/eslint-config/commit/7f62f12b5a3e8acf6de5dac31409b7bd77739dbb))
+* add env.mocha true ([3ab1021](https://github.com/waitingsong/eslint-config/commit/3ab102171657bbafaf7c19aa487b43dce101ccb0))
+
 ## [3.0.0](https://github.com/waitingsong/eslint-config/compare/v2.7.1...v3.0.0) (2020-02-12)
 
 
