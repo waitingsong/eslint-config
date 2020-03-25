@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://github.com/waitingsong/eslint-config/compare/v3.2.0...v3.3.0) (2020-03-25)
+
+
+### Features
+
+* **recommended:** remove rule of @typescript-eslint/explicit-member-accessibilit ([0bad1f7](https://github.com/waitingsong/eslint-config/commit/0bad1f7ca59ae1f5ab4aa689f76440f703336358))
+
 ## [3.2.0](https://github.com/waitingsong/eslint-config/compare/v3.1.0...v3.2.0) (2020-03-25)
 
 
