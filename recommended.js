@@ -17,19 +17,6 @@ module.exports = {
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/consistent-type-definitions': [2, 'interface'],
     '@typescript-eslint/explicit-function-return-type': 0,
-    '@typescript-eslint/explicit-member-accessibility': [
-      2,
-      {
-        accessibility: 'explicit',
-        overrides: {
-          accessors: 'explicit',
-          constructors: 'no-public',
-          methods: 'explicit',
-          properties: 'off',
-          parameterProperties: 'explicit',
-        },
-      },
-    ],
     'func-call-spacing': 0,
     '@typescript-eslint/func-call-spacing': [1, 'never'],
     indent: 0,
