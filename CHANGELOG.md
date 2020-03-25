@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](https://github.com/waitingsong/eslint-config/compare/v3.1.0...v3.2.0) (2020-03-25)
+
+
+### Features
+
+* bump parserOption.ecmaVersion to 2020 ([9ee89d9](https://github.com/waitingsong/eslint-config/commit/9ee89d9c119a996d9aa71c239ed2a4fe3183ddcf))
+
 ## [3.1.0](https://github.com/waitingsong/eslint-config/compare/v3.0.0...v3.1.0) (2020-03-17)
 
 
