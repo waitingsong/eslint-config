@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.4.0](https://github.com/waitingsong/eslint-config/compare/v3.3.0...v3.4.0) (2020-03-28)
+
+
+### Features
+
+* update import/order ([7b98168](https://github.com/waitingsong/eslint-config/commit/7b9816889a19efde9027821e8d1ada8b12ebbc53))
+
 ## [3.3.0](https://github.com/waitingsong/eslint-config/compare/v3.2.0...v3.3.0) (2020-03-25)
 
 
