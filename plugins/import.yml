@@ -43,5 +43,8 @@ rules:
         - parent
         - sibling
         - index
+      alphabetize:
+        order: 'asc'
+        caseInsensitive: false
       newlines-between: always
 
