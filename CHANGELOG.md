@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/waitingsong/eslint-config/compare/v3.4.0...v4.0.0) (2020-03-28)
+
+
+### Features
+
+* add rules of unicorn ([0966efd](https://github.com/waitingsong/eslint-config/commit/0966efd1fe7b0eaf691ed9e7bbbf16f980b5b1c5))
+
 ## [3.4.0](https://github.com/waitingsong/eslint-config/compare/v3.3.0...v3.4.0) (2020-03-28)
 
 
