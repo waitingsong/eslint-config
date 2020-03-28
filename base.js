@@ -6,7 +6,7 @@ module.exports = {
     mocha: true,
     node: true,
   },
-  extends: ['./plugins/import.yml'],
+  extends: ['./plugins/import.yml', './plugins/unicorn.yml'],
   globals: {
     Atomics: 'readonly',
     document: 'readonly',
