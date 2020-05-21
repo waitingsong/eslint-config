@@ -31,7 +31,11 @@ module.exports = {
     '@typescript-eslint/unbound-method': 2,
 
     // https://eslint.org/docs/rules/
-    'accessor-pairs': 2,
+    'accessor-pairs': [
+      2, {
+        enforceForClassMembers: false,
+      },
+    ],
     'no-await-in-loop': 1,
     'no-console': [2, { allow: ['warn', 'error', 'info'] } ],
     'no-floating-decimal': 2,

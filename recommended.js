@@ -11,10 +11,9 @@ module.exports = {
 
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
     '@typescript-eslint/array-type': [2],
-    '@typescript-eslint/ban-ts-ignore': 0,
+    '@typescript-eslint/ban-ts-comment': [0],
     'brace-style': 0,
     '@typescript-eslint/brace-style': [1, 'stroustrup', { allowSingleLine: true } ],
-    '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/consistent-type-definitions': [2, 'interface'],
     '@typescript-eslint/explicit-function-return-type': 0,
     'func-call-spacing': 0,
