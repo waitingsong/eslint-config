@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/waitingsong/eslint-config/compare/v4.0.0...v5.0.0) (2020-05-22)
+
+
+### Features
+
+* **deps:** upgrade to eslint 7.0 ([41eb204](https://github.com/waitingsong/eslint-config/commit/41eb20480581b10d15833fbe448b3ba61c73efee))
+* **plugin:** add eslint-plugin-node ([44e1414](https://github.com/waitingsong/eslint-config/commit/44e1414fe4014e44c0db74cadf1d9f8f2827dbec))
+* **rules:** update ([6ee792e](https://github.com/waitingsong/eslint-config/commit/6ee792e1c2ae1912ccd215a811b16b748635b17b))
+* **rules:** update ([93e897f](https://github.com/waitingsong/eslint-config/commit/93e897faa3ef6bdbcf31a0205a83a8e88e45b204))
+
 ## [4.0.0](https://github.com/waitingsong/eslint-config/compare/v3.4.0...v4.0.0) (2020-03-28)
 
 
