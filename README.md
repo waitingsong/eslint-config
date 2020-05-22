@@ -10,11 +10,12 @@
 ## Features
 - `@waiting/eslint-config/recommended` extends and customize from
   - `eslint-plugin-import`
+  - `eslint-plugin-node`
   - `eslint-plugin-unicorn`
   - `eslint:recommended`
-  - `@typescript-eslint/eslint-recommended`
   - `@typescript-eslint/recommended`
-- `@waiting/eslint-config` extends `@waiting/eslint-config/recommended` and enable more strict rules
+  - `@typescript-eslint/recommended-requiring-type-checking`
+- `@waiting/eslint-config` extends `@waiting/eslint-config/strict` and more strict rules enabled
 
 
 ## Install
@@ -71,3 +72,4 @@ eslint src/**/*.{ts,js}
 ### Languages
 - [English](README.md)
 - [中文](README.zh-CN.md)
+
