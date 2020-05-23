@@ -159,4 +159,3 @@ export function x<R extends Record<string, (this: unknown) => unknown>>(fns: R):
 // if (promise2) {
 //   // Do something
 // }
-

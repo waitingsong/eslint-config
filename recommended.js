@@ -181,5 +181,9 @@ module.exports = {
     'no-useless-rename': 1,
     'no-var': 2,
     'object-shorthand': [1, 'always'],
+
+    // https://eslint.org/docs/rules/#deprecated
+    // deprecated off
+    'no-process-exit': 0,
   },
 }
