@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.0](https://github.com/waitingsong/eslint-config/compare/v5.1.0...v5.2.0) (2020-06-07)
+
+
+### Features
+
+* **recommended:** set rules off ([fc50cca](https://github.com/waitingsong/eslint-config/commit/fc50cca6fdfebc71da4480811fc93e729e78a407))
+
 ## [5.1.0](https://github.com/waitingsong/eslint-config/compare/v5.0.1...v5.1.0) (2020-05-23)
 
 
