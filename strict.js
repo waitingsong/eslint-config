@@ -10,6 +10,8 @@ module.exports = {
     '@typescript-eslint/no-require-imports': 2,
     '@typescript-eslint/no-throw-literal': 2,
     '@typescript-eslint/no-unnecessary-condition': 1,
+    '@typescript-eslint/no-unsafe-call': 2,
+    '@typescript-eslint/no-unsafe-return': 2,
     '@typescript-eslint/no-useless-constructor': 2,
     '@typescript-eslint/prefer-for-of': 2,
     '@typescript-eslint/prefer-function-type': 2,
