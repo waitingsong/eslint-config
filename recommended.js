@@ -187,5 +187,9 @@ module.exports = {
     // https://eslint.org/docs/rules/#deprecated
     // deprecated off
     'no-process-exit': 0,
+
+    // https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-extraneous-import.md
+    // import/no-extraneous-dependencies already active
+    'node/no-extraneous-import': 0,
   },
 }
