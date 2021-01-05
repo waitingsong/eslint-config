@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.1](https://github.com/waitingsong/eslint-config/compare/v6.0.0...v6.0.1) (2021-01-05)
+
+
+### Bug Fixes
+
+* **recommended:** use @typescript-eslint/no-shadow instead of no-shadown ([598c100](https://github.com/waitingsong/eslint-config/commit/598c100d85b587d0fc641dd7b33cca8a3651f3d1))
+
 ## [6.0.0](https://github.com/waitingsong/eslint-config/compare/v5.2.1...v6.0.0) (2021-01-05)
 
 
