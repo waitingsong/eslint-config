@@ -54,6 +54,7 @@ module.exports = {
     'no-extra-parens': 0,
     '@typescript-eslint/no-extra-parens': 2,
     '@typescript-eslint/no-parameter-properties': 0,
+    '@typescript-eslint/no-shadow': 2,
     '@typescript-eslint/no-this-alias': [
       2,
       {
@@ -90,7 +91,7 @@ module.exports = {
 
     // https://eslint.org/docs/rules/#variables
     'no-restricted-globals': [2, 'isFinite', 'isNaN'],
-    'no-shadow': 2,
+    'no-shadow': 0,
 
     // https://eslint.org/docs/rules/#stylistic-issues
     'array-bracket-newline': [1, { multiline: true } ],
