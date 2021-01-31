@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@types/tape": "4",
-    "eslint": "7",
+    "eslint": "~7.18.0",
     "tape": "5",
     "typescript": ">=3.9"
   },
