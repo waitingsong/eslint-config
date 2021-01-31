@@ -85,7 +85,7 @@ interface BaseConfig {
     requireLast?: boolean,
   }
 }
-type Config = BaseConfig & {
+export type Config = BaseConfig & {
   overrides?: {
     interface?: BaseConfig,
     typeLiteral?: BaseConfig,
@@ -95,7 +95,7 @@ type Config = BaseConfig & {
     age: number,
   },
 }
-type Config2 = BaseConfig & {
+export type Config2 = BaseConfig & {
   foo: string,
   age: number,
 }
