@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     commonjs: true,
     es6: true,
+    jest: true,
     mocha: true,
     node: true,
   },
@@ -25,7 +26,7 @@ module.exports = {
       globalReturn: false,
       impliedStrict: true,
     },
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
     // see: https://github.com/typescript-eslint/typescript-eslint/releases/tag/v3.0.0
     project: 'tsconfig.json',
     sourceType: 'module',
