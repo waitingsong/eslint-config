@@ -48,6 +48,7 @@ jobs:
           # git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
           npm run release ${{ github.event.inputs.semver }}
           npm publish
+          git push -v origin --follow-tags
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
