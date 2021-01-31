@@ -1,4 +1,4 @@
-import * as assert from 'assert'
+import assert from 'assert'
 
 // https://github.com/benmosher/eslint-plugin-import/issues/1753
 // eslint-disable-next-line import/named

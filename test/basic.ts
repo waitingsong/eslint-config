@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires, import/no-extraneous-dependencies, @typescript-eslint/no-require-imports */
-import * as test from 'tape'
+import test from 'tape'
 
 import * as config from '../base.js'
 

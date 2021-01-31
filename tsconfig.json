@@ -3,6 +3,7 @@
     "allowJs": true,
     "declaration": false,
     "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "inlineSourceMap": true,
     "module": "commonjs",
