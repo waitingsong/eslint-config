@@ -59,8 +59,7 @@
     "lint": "npm run lint:src && npm run lint:test",
     "lint:src": "eslint --fix ./*.js --config=strict.js --parser-options=project:tsconfig.json",
     "lint:test": "eslint test/*.ts --config=test/.eslintrc.yml",
-    "postpublish": "git push origin --follow-tags",
-    "prepublishOnly": "npm run test",
+    "postpublish": "git push -v origin --follow-tags",
     "test": "npm run lint && tape test/*.js",
     "release": "standard-version -r"
   }
