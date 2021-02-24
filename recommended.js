@@ -136,7 +136,6 @@ module.exports = {
     'object-property-newline': [1, { allowAllPropertiesOnSameLine: true } ],
     'one-var': [1, 'never'],
     'operator-linebreak': [1, 'before'],
-    'padded-blocks': [1, { classes: 'always' } ],
     'quote-props': [1, 'as-needed'],
     quotes: [1, 'single'],
     'semi-spacing': [1, { before: false, after: true } ],
