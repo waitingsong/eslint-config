@@ -114,7 +114,7 @@ module.exports = {
     'key-spacing': 1,
     'keyword-spacing': 1,
     'linebreak-style': [1, 'unix'],
-    'lines-between-class-members': [1, 'always'],
+    'lines-between-class-members': [1, 'always', { "exceptAfterSingleLine": true }],
     'max-params': [2, { max: 6 } ],
     'new-parens': [1],
     'newline-per-chained-call': [1, { ignoreChainWithDepth: 6 } ],
