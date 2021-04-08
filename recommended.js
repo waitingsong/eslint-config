@@ -120,7 +120,7 @@ module.exports = {
     'newline-per-chained-call': [1, { ignoreChainWithDepth: 6 } ],
     'no-lonely-if': 1,
     'no-mixed-spaces-and-tabs': 2,
-    'no-multiple-empty-lines': [1, { max: 4, maxBOF: 1, maxEOF: 1 } ],
+    'no-multiple-empty-lines': [1, { max: 4, maxBOF: 1, maxEOF: 2 } ],
     'no-trailing-spaces': [2, { skipBlankLines: false, ignoreComments: true } ],
     'no-whitespace-before-property': 1,
     'object-curly-newline': [
@@ -128,7 +128,7 @@ module.exports = {
       {
         ObjectExpression: { multiline: true, minProperties: 4, consistent: true },
         ObjectPattern: { multiline: true, minProperties: 4, consistent: true },
-        ImportDeclaration: { multiline: true, minProperties: 6 },
+        ImportDeclaration: { multiline: true, minProperties: 8 },
         ExportDeclaration: { multiline: true, minProperties: 2 },
       },
     ],
