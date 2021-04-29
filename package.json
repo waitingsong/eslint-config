@@ -34,7 +34,7 @@
     "@typescript-eslint/parser": "^4.21.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "29"
+    "eslint-plugin-unicorn": "31"
   },
   "devDependencies": {
     "@types/tape": "4",
