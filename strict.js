@@ -86,7 +86,19 @@ module.exports = {
     'prefer-object-spread': 1,
     'prefer-arrow-callback': 1,
     'prefer-const': 1,
-    'prefer-destructuring': 1,
+    'prefer-destructuring': [
+      1, 
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true,
+        },
+        AssignmentExpression: {
+          array: false,
+          object: false,
+        }
+      }
+    ],
     'prefer-rest-params': 1,
     'prefer-spread': 1,
     'rest-spread-spacing': [1, 'never'],
