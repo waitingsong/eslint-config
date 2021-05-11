@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 6.6.0 (2021-05-11)
+
+
+### Features
+
+* update rule import ([2670460](https://github.com/waitingsong/eslint-config/commit/2670460bd2ab4ec1fa32d1c9385a1dcee0191345))
+
 ## 6.5.0 (2021-04-29)
 
 ## 6.4.0 (2021-04-08)
