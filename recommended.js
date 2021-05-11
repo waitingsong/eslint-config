@@ -126,8 +126,8 @@ module.exports = {
     'object-curly-newline': [
       1,
       {
-        ObjectExpression: { multiline: true, minProperties: 4, consistent: true },
-        ObjectPattern: { multiline: true, minProperties: 4, consistent: true },
+        ObjectExpression: { multiline: true, minProperties: 6, consistent: true },
+        ObjectPattern: { multiline: true, minProperties: 6, consistent: true },
         ImportDeclaration: { multiline: true, minProperties: 8 },
         ExportDeclaration: { multiline: true, minProperties: 2 },
       },
