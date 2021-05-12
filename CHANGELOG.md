@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 6.7.0 (2021-05-12)
+
+
+### Features
+
+* **recommended:** disable rule @typescript-eslint/no-unnecessary-type-assertion ([60e1d59](https://github.com/waitingsong/eslint-config/commit/60e1d5997ac6acde00132dab81b4badbd306fb9c))
+
 ## 6.6.0 (2021-05-11)
 
 
