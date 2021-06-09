@@ -52,7 +52,13 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 1,
     '@typescript-eslint/no-explicit-any': [0],
     'no-extra-parens': 0,
-    '@typescript-eslint/no-extra-parens': 2,
+    '@typescript-eslint/no-extra-parens': [
+      2,
+      'all',
+      {
+        nestedBinaryExpressions: false,
+      },
+    ],
     '@typescript-eslint/no-parameter-properties': 0,
     '@typescript-eslint/no-shadow': 2,
     '@typescript-eslint/no-this-alias': [
