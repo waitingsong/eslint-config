@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 6.9.0 (2021-06-09)
+
+
+### Features
+
+* **recommended:** update rule @typescript-eslint/no-extra-parens ([cf3b2e4](https://github.com/waitingsong/eslint-config/commit/cf3b2e445504d927069ae1d8be3e4f2a0ef0752f))
+
 ## 6.8.0 (2021-05-14)
 
 ## 6.7.0 (2021-05-12)
