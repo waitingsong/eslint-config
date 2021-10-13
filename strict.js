@@ -87,7 +87,7 @@ module.exports = {
     'prefer-arrow-callback': 1,
     'prefer-const': 1,
     'prefer-destructuring': [
-      1, 
+      1,
       {
         VariableDeclarator: {
           array: false,
@@ -96,8 +96,8 @@ module.exports = {
         AssignmentExpression: {
           array: false,
           object: false,
-        }
-      }
+        },
+      },
     ],
     'prefer-rest-params': 1,
     'prefer-spread': 1,
