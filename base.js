@@ -26,7 +26,7 @@ module.exports = {
       globalReturn: false,
       impliedStrict: true,
     },
-    ecmaVersion: 2021,
+    ecmaVersion: "latest",
     // see: https://github.com/typescript-eslint/typescript-eslint/releases/tag/v3.0.0
     project: 'tsconfig.json',
     sourceType: 'module',
