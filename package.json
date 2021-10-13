@@ -12,7 +12,7 @@
     "typescript"
   ],
   "engines": {
-    "node": ">=10.16.0"
+    "node": ">=12.13.0"
   },
   "bin": {},
   "browser": "",
@@ -30,20 +30,20 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.21.0",
-    "@typescript-eslint/parser": "^4.21.0",
-    "eslint-plugin-import": "~2.22.1",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-plugin-import": "^2.25.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "32"
+    "eslint-plugin-unicorn": "37"
   },
   "devDependencies": {
     "@types/tape": "4",
-    "eslint": "7",
+    "eslint": "8",
     "tape": "5",
-    "typescript": ">=3.9"
+    "typescript": ">=4"
   },
   "peerDependencies": {
-    "eslint": ">=7.15.0"
+    "eslint": ">=8"
   },
   "files": [
     "plugins/*.yml",
