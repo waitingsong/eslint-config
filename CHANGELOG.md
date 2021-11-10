@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 6.12.0 (2021-11-10)
+
+
+### Features
+
+* **recommended:** update rule @typescript-eslint/indent ([c4f013f](https://github.com/waitingsong/eslint-config/commit/c4f013f74dc3a8bbf583d56fb28980a6d58011e9))
+
 ## 6.11.0 (2021-11-10)
 
 ## 6.10.0 (2021-11-10)
