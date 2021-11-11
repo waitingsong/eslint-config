@@ -8,7 +8,7 @@ extends:
 rules:
   # https://github.com/benmosher/eslint-plugin-import#static-analysis
   import/default: 2
-  import/named: 2
+  import/named: 0
   import/namespace: 0
   import/no-unresolved: [0, {"amd": true, "commonjs": true}]
   import/no-absolute-path: 2
@@ -34,7 +34,7 @@ rules:
   import/no-extraneous-dependencies: 0
   import/no-named-default: 2
   import/no-namespace: 0
-  import/order: 
+  import/order:
     - 1
     - groups:
         - builtin
