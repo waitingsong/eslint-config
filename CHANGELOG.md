@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 7.0.0 (2021-11-11)
+
+
+### Features
+
+* set plugin import/named disable ([0be7a1f](https://github.com/waitingsong/eslint-config/commit/0be7a1f768c8502edb77e839e38b86d6517ed25a))
+
 ## 6.12.0 (2021-11-10)
 
 
