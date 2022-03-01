@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 7.2.0 (2022-03-01)
+
+
+### Features
+
+* **deps:** bump eslint-plugin-unicorn ([9b8d70d](https://github.com/waitingsong/eslint-config/commit/9b8d70de9573fda82423fcc136cc00427622d013))
+
 ## 7.1.0 (2021-11-22)
 
 ## 7.0.0 (2021-11-11)
