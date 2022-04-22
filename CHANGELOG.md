@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 7.4.0 (2022-04-22)
+
+
+### Features
+
+* **strict:** update rule of id-length ([5eed472](https://github.com/waitingsong/eslint-config/commit/5eed472536d088d5f67e3114cb4a5569c9fd023f))
+
 ## 7.3.0 (2022-03-08)
 
 ## 7.2.0 (2022-03-01)
