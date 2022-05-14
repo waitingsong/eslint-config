@@ -1,5 +1,5 @@
 export default {
-  extends: ['./recommended.js'],
+  extends: ['./recommended.mjs'],
   rules: {
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
     '@typescript-eslint/consistent-type-assertions': 2,

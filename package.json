@@ -19,15 +19,15 @@
   "main": "dist/strict.cjs",
   "exports": {
     ".": {
-      "import": "./src/strict.js",
+      "import": "./src/strict.mjs",
       "require": "./dist/strict.cjs"
     },
     "./recommended": {
-      "import": "./src/recommended.js",
+      "import": "./src/recommended.mjs",
       "require": "./dist/recommended.cjs"
     },
     "./strict": {
-      "import": "./src/strict.js",
+      "import": "./src/strict.mjs",
       "require": "./dist/strict.cjs"
     },
     "./package.json": "./package.json"
@@ -67,7 +67,7 @@
   },
   "scripts": {
     "lint": "npm run lint:src && npm run lint:test",
-    "lint:src": "eslint --fix src/*.js dist/*.cjs --config=dist/strict.cjs --parser-options=project:tsconfig.json",
+    "lint:src": "eslint --fix src/*.mjs dist/*.cjs --config=dist/strict.cjs --parser-options=project:tsconfig.json",
     "lint:test": "eslint test/*.ts --config=test/.eslintrc.yml",
     "test": "npm run lint && tape test/*.js",
     "release": "standard-version -r"

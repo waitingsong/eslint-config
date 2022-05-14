@@ -19,6 +19,7 @@
   },
   "include": [
     "src/*.js",
+    "src/*.mjs",
     "dist/*.cjs",
     "test/*.cjs",
     "test/*.mjs",

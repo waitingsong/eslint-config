@@ -1,6 +1,6 @@
 export default {
   extends: [
-    './base.js',
+    './base.mjs',
     'eslint:recommended',
     // 'plugin:@typescript-eslint/eslint-recommended',  included in @typescript-eslint/recommended
     'plugin:@typescript-eslint/recommended',
