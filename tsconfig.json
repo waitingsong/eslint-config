@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "inlineSourceMap": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "newLine": "lf",
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": false,
@@ -18,14 +18,16 @@
     "target": "ES2020"
   },
   "include": [
+    "src/*.js",
+    "dist/*.cjs",
+    "test/*.cjs",
+    "test/*.mjs",
     "test/*.js",
-    "test/*.ts",
-    "*.js"
+    "test/*.ts"
   ],
   "exclude": [
     "**/*.d.ts",
     "**/*.spec.ts",
-    "dist",
     "node_modules*",
     "src/app/public",
     "src/app/views"

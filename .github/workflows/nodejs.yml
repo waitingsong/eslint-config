@@ -15,19 +15,21 @@ on:
 jobs:
   build:
     runs-on: ${{ matrix.os }}
+    container: node:16-bullseye
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
 
     strategy:
       matrix:
-        node: [12, 14, 15]
+        node: [14, 16, 18]
         os: [ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
+
       - name: Cache
         uses: actions/cache@v2
         id: cache-modules

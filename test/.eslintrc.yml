@@ -1,4 +1,4 @@
-extends: '../strict.js'
+extends: '../dist/strict.cjs'
 parserOptions:
   project: 'tsconfig.json'
 

@@ -8,18 +8,30 @@
     "code style",
     "eslint",
     "eslintconfig",
+    "esm",
     "tslint",
     "typescript"
   ],
   "engines": {
-    "node": ">=12.22.0"
+    "node": ">=14"
   },
-  "bin": {},
-  "browser": "",
-  "es2015": "",
-  "main": "index.js",
-  "module": "",
-  "types": "",
+  "type": "module",
+  "main": "dist/strict.cjs",
+  "exports": {
+    ".": {
+      "import": "./src/strict.js",
+      "require": "./dist/strict.cjs"
+    },
+    "./recommended": {
+      "import": "./src/recommended.js",
+      "require": "./dist/recommended.cjs"
+    },
+    "./strict": {
+      "import": "./src/strict.js",
+      "require": "./dist/strict.cjs"
+    },
+    "./package.json": "./package.json"
+  },
   "bugs": {
     "url": "https://github.com/waitingsong/eslint-config/issues"
   },
@@ -30,11 +42,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
-    "eslint-plugin-import": "^2.25.3",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^41.0.0"
+    "eslint-plugin-unicorn": "^42.0.0"
   },
   "devDependencies": {
     "@types/tape": "4",
@@ -43,21 +55,19 @@
     "typescript": ">=4"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": ">=8.15"
   },
   "files": [
     "plugins/*.yml",
-    "base.js",
-    "index.js",
-    "recommended.js",
-    "strict.js"
+    "src",
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "lint": "npm run lint:src && npm run lint:test",
-    "lint:src": "eslint --fix ./*.js --config=strict.js --parser-options=project:tsconfig.json",
+    "lint:src": "eslint --fix src/*.js dist/*.cjs --config=dist/strict.cjs --parser-options=project:tsconfig.json",
     "lint:test": "eslint test/*.ts --config=test/.eslintrc.yml",
     "test": "npm run lint && tape test/*.js",
     "release": "standard-version -r"

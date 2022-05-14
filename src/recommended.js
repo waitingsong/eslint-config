@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: [
     './base.js',
     'eslint:recommended',
@@ -30,11 +30,11 @@ module.exports = {
       {
         SwitchCase: 1,
         ignoredNodes: [
-          "FunctionExpression > .params[decorators.length > 0]",
-          "FunctionExpression > .params > :matches(Decorator, :not(:first-child))",
-          "ClassBody.body > PropertyDefinition[decorators.length > 0] > .key"
-        ]
-      }
+          'FunctionExpression > .params[decorators.length > 0]',
+          'FunctionExpression > .params > :matches(Decorator, :not(:first-child))',
+          'ClassBody.body > PropertyDefinition[decorators.length > 0] > .key',
+        ],
+      },
     ],
     '@typescript-eslint/member-delimiter-style': [
       2,
