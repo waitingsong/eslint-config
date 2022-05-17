@@ -26,7 +26,15 @@
       "import": "./src/recommended.mjs",
       "require": "./dist/recommended.cjs"
     },
+    "./recommended.js": {
+      "import": "./src/recommended.mjs",
+      "require": "./dist/recommended.cjs"
+    },
     "./strict": {
+      "import": "./src/strict.mjs",
+      "require": "./dist/strict.cjs"
+    },
+    "./strict.js": {
       "import": "./src/strict.mjs",
       "require": "./dist/strict.cjs"
     },
