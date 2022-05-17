@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 8.0.2 (2022-05-17)
+
+
+### Bug Fixes
+
+* export .js entries ([ec1ab5f](https://github.com/waitingsong/eslint-config/commit/ec1ab5f4ca3538ad486603b7ec4412e35b13dd92))
+
 ### 8.0.1 (2022-05-14)
 
 ## 8.0.0 (2022-05-14)
