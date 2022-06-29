@@ -85,9 +85,9 @@ jobs:
 
       - name: Build
         run: |
-          openssl version
-          node -v
           npm run build --if-present
+        env:
+          CI: true
 
       - name: Testing
         run: |
