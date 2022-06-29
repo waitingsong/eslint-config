@@ -74,6 +74,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "build": "",
     "lint": "npm run lint:src && npm run lint:test",
     "lint:src": "eslint --fix src/*.mjs dist/*.cjs --config=dist/strict.cjs --parser-options=project:tsconfig.json",
     "lint:test": "eslint test/*.ts --config=test/.eslintrc.yml",

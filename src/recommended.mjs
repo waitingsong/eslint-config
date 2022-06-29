@@ -100,7 +100,7 @@ export default {
 
     // https://eslint.org/docs/rules/#best-practices
     curly: 2,
-    'dot-notation': 1,
+    'dot-notation': 0,
     eqeqeq: 2,
     'no-eval': 2,
     'no-multi-spaces': 1,
