@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 8.6.0 (2022-08-30)
+
+
+### Features
+
+* bump deps version ([e585ab0](https://github.com/waitingsong/eslint-config/commit/e585ab0339e7a121893ab45c9e34433147a98353))
+
 ## 8.5.0 (2022-07-06)
 
 
