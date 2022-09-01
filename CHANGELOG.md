@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 8.7.0 (2022-09-01)
+
+
+### Features
+
+* **base:** remove config extraFileExtensions ([13b18c8](https://github.com/waitingsong/eslint-config/commit/13b18c8f344f55d99810f2ee86f765e1d3ec0d55))
+
 ## 8.6.0 (2022-08-30)
 
 
