@@ -50,11 +50,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.36.0",
-    "@typescript-eslint/parser": "^5.36.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^43.0.0"
+    "eslint-plugin-unicorn": "^45.0.1"
   },
   "devDependencies": {
     "@types/tape": "4",
@@ -63,7 +63,7 @@
     "typescript": ">=4"
   },
   "peerDependencies": {
-    "eslint": ">=8.23.0"
+    "eslint": ">=8.29.0"
   },
   "files": [
     "plugins/*.yml",
