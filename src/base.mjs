@@ -28,7 +28,7 @@ export default {
       impliedStrict: true,
     },
     ecmaVersion: 'latest',
-    // extraFileExtensions: ['.cjs', '.mjs', '.cts'],
+    extraFileExtensions: ['.cjs', '.mjs', '.cts', '.mts'],
     // see: https://github.com/typescript-eslint/typescript-eslint/releases/tag/v3.0.0
     project: 'tsconfig.json',
     sourceType: 'module',
