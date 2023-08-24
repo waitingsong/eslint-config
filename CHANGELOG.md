@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.9.0](https://github.com/waitingsong/eslint-config/compare/v8.8.0...v8.9.0) (2023-08-24)
+
+
+### Features
+
+* support .mts file ([71bffa5](https://github.com/waitingsong/eslint-config/commit/71bffa518857d66c76be038310c257aad64bf6d6))
+
 ## 8.8.0 (2022-12-08)
 
 
