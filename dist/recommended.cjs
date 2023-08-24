@@ -4,6 +4,7 @@ module.exports = {
     'eslint:recommended',
     // 'plugin:@typescript-eslint/eslint-recommended',  included in @typescript-eslint/recommended
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/stylistic',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   rules: {
@@ -60,6 +61,7 @@ module.exports = {
     '@typescript-eslint/no-base-to-string': 2,
     'no-dupe-class-members': 0,
     '@typescript-eslint/no-dupe-class-members': 2,
+    'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 1,
     '@typescript-eslint/no-explicit-any': [0],
     'no-extra-parens': 0,
