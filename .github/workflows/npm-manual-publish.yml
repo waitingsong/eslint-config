@@ -13,16 +13,26 @@ on:
 jobs:
   build:
     runs-on: ${{ matrix.os }}
-    container: node:18-bullseye
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    container: node:current
+    timeout-minutes: 60
 
     strategy:
       matrix:
-        node: [18]
+        node: ['lts/*']
         os: [ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          # pulls all commits (needed for lerna / semantic release to correctly version)
+          fetch-depth: "0"
+      # Caution: disable fix below at FIRST publish, then enable
+      - name: Fix for semantic release
+        # pulls all tags (needed for lerna / semantic release to correctly version)
+        run: |
+          export cwd=`pwd`
+          git config --global --add safe.directory $cwd
+          git fetch --depth=1 origin +refs/tags/*:refs/tags/*
       - name: Use Node.js ${{ matrix.node }}
         uses: actions/setup-node@v3
         with:
@@ -38,11 +48,6 @@ jobs:
           path: |
             node_modules
             package-lock.json
-            packages/*/.eslintcache
-            packages/*/.vscode
-            packages/*/dist
-            packages/*/node_modules
-            packages/*/package-lock.json
           key: ${{ runner.OS }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.OS }}-build-${{ env.cache-name }}-${{ github.ref }}-
@@ -52,9 +57,9 @@ jobs:
           uname -a
           export DEBIAN_FRONTEND=noninteractive
           apt-get update -qq --yes > /dev/null
-          apt-get upgrade -qq --yes > /dev/null
+          # apt-get upgrade -qq --yes > /dev/null
           apt-get install -qq --yes --no-install-recommends bash dnsutils git jq locales net-tools wget > /dev/null
-          apt-get install -qq --yes postgresql-client > /dev/null
+          # apt-get install -qq --yes postgresql-client libpq-dev > /dev/null
           uname -a
           npm -v && node -v
           git --version
@@ -75,10 +80,11 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Inatall Dependencies
+        timeout-minutes: 15
         run: |
           # DO NOT execute: npm config set unsafe-perm=true
           export cwd=`pwd`
-          npm i -g standard-version zx
+          npm i -g standard-version tsx zx
           npm i
         env:
           CI: true
@@ -100,9 +106,9 @@ jobs:
           npm ping
           npm whoami
           chmod a+w -R .
+          export cwd=`pwd`
           git config user.name $GITHUB_ACTOR
           git config user.email gh-actions-${GITHUB_ACTOR}@github.com
-          # git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
           npm run release ${{ github.event.inputs.semver }}
           npm publish
           git push -v origin --follow-tags
