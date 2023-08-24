@@ -29,9 +29,8 @@ module.exports = {
     },
     ecmaVersion: 'latest',
     extraFileExtensions: ['.cjs', '.mjs', '.cts', '.mts'],
-    // see: https://github.com/typescript-eslint/typescript-eslint/releases/tag/v3.0.0
-    project: 'tsconfig.json',
-    sourceType: 'module',
+    project: true,
+    sourceType: 'script',
   },
   plugins: ['@typescript-eslint', 'unicorn'],
   root: true,
