@@ -60,10 +60,10 @@
     "@types/tape": "4",
     "eslint": "8",
     "tape": "5",
-    "typescript": ">=4"
+    "typescript": ">=5"
   },
   "peerDependencies": {
-    "eslint": ">=8.29.0"
+    "eslint": ">=8.47.0"
   },
   "files": [
     "plugins/*.yml",
