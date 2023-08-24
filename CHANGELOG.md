@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.0.0](https://github.com/waitingsong/eslint-config/compare/v8.9.0...v9.0.0) (2023-08-24)
+
+
+### Features
+
+* add plugin:@typescript-eslint/stylistic for recommended ([f698d1f](https://github.com/waitingsong/eslint-config/commit/f698d1f01363a702b2c0d887782a60fe652654ea))
+* increase engines.node to ">=16" ([8680b65](https://github.com/waitingsong/eslint-config/commit/8680b65e870eef6a4d2b8acfcfca0b70fac955e7))
+* update base config ([fe85a64](https://github.com/waitingsong/eslint-config/commit/fe85a6408e92729102d2c4e723e50f106895bb37))
+
 ## [8.9.0](https://github.com/waitingsong/eslint-config/compare/v8.8.0...v8.9.0) (2023-08-24)
 
 
