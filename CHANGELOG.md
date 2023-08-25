@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.1.0](https://github.com/waitingsong/eslint-config/compare/v9.0.0...v9.1.0) (2023-08-25)
+
+
+### Features
+
+* add global ignorePatterns ([4e1da7d](https://github.com/waitingsong/eslint-config/commit/4e1da7dd0da63a1bda72beb7eda3b856079e5ecf))
+
 ## [9.0.0](https://github.com/waitingsong/eslint-config/compare/v8.9.0...v9.0.0) (2023-08-24)
 
 
