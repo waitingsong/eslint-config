@@ -8,7 +8,7 @@ import unicornPluginRules from './plugin/unicorn.mjs'
 import { testConfig } from './test-base.mjs'
 
 
-// https://typescript-eslint.io/rules/
+// https://eslint.style/packages/default
 const styles = [
   stylistic.configs['recommended-flat'],
 
