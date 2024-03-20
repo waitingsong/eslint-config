@@ -3,6 +3,8 @@ import unicornPlugin from 'eslint-plugin-unicorn'
 import tseslint from 'typescript-eslint'
 
 // https://eslint.org/blog/2022/08/new-config-system-part-2/
+// https://typescript-eslint.io/getting-started/typed-linting/monorepos
+
 export default [
   {
     ignores: [
