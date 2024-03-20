@@ -3,9 +3,8 @@ import { testConfig } from './test-base.mjs'
 
 
 const rules = {
-  // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
   // https://typescript-eslint.io/rules/
-  '@typescript-eslint/no-extraneous-class': 2,
+  '@typescript-eslint/no-extraneous-class': 0,
   '@typescript-eslint/no-unnecessary-condition': 2,
   '@typescript-eslint/no-useless-constructor': 2,
   '@typescript-eslint/prefer-readonly': 1,
