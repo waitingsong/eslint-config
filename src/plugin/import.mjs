@@ -47,17 +47,17 @@ const rules = {
       pathGroups: [
         {
           pattern: '##/**',
-          group: 'external',
+          group: 'internal',
           position: 'after',
         },
         {
           pattern: '#a/**',
-          group: 'external',
+          group: 'internal',
           position: 'after',
         },
         {
           pattern: '#@/**',
-          group: 'external',
+          group: 'internal',
           position: 'after',
         },
       ],
