@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.0.0](https://github.com/waitingsong/eslint-config/compare/v9.1.1...v10.0.0) (2024-03-20)
+
+
+### Features
+
+* breaking change to eslint FlatConfig ([50168ee](https://github.com/waitingsong/eslint-config/commit/50168ee2bd7d12910111ac4c4b9bfbbdf69fe67f))
+
 ### [9.1.1](https://github.com/waitingsong/eslint-config/compare/v9.1.0...v9.1.1) (2023-09-15)
 
 ## [9.1.0](https://github.com/waitingsong/eslint-config/compare/v9.0.0...v9.1.0) (2023-08-25)
