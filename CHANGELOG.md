@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.1.0](https://github.com/waitingsong/eslint-config/compare/v10.0.0...v10.1.0) (2024-03-20)
+
+
+### Features
+
+* **strict:** set rule "@typescript-eslint/no-extraneous-class" to off ([d34432e](https://github.com/waitingsong/eslint-config/commit/d34432ee85ef7eb2907b16af21a03f70921cbfb1))
+
 ## [10.0.0](https://github.com/waitingsong/eslint-config/compare/v9.1.1...v10.0.0) (2024-03-20)
 
 
