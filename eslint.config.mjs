@@ -1,4 +1,4 @@
-import tseslint from 'typescript-eslint'
+import eslint from 'typescript-eslint'
 import recommended from './src/recommended.mjs'
 
 
@@ -17,7 +17,7 @@ const rules = {
   ],
 }
 
-export default tseslint.config({
+export default eslint.config({
   extends: [
     ...recommended,
   ],
