@@ -9,12 +9,12 @@
 
 ## Features
 - `@waiting/eslint-config/recommended` extends and customize from
-  - `eslint-plugin-import`
-  - `eslint-plugin-node`
-  - `eslint-plugin-unicorn`
   - `eslint:recommended`
-  - `@typescript-eslint/recommended`
-  - `@typescript-eslint/recommended-requiring-type-checking`
+  - `typescript-eslint/recommended`
+  - `typescript-eslint/stylisticTypeChecked`
+  - `@stylistic/eslint-plugin/recommended-flat`
+  - `eslint-plugin-import`
+  - `eslint-plugin-unicorn`
 - `@waiting/eslint-config` extends `@waiting/eslint-config/strict` and more strict rules enabled
 
 
@@ -26,44 +26,45 @@ npm i -D @waiting/eslint-config eslint
 
 
 ## Usage
-Shareable configs are designed to work with the `extends` feature of `.eslintrc.*` files.
-You can learn more about
 [Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs) on the
 official ESLint website.
 
-Add this to your `.eslintrc.*` file:
-- `.eslintrc.yml` 
-  ```yml
-  extends: '@waiting/eslint-config' 
-  ```
-- `.eslintrc.json` 
-  ```json
-  {
-    "extends": "@waiting/eslint-config"
-  }
-  ```
+Add this to your `eslint.config.mjs` file:
+```js
+import tseslint from 'typescript-eslint'
+import recommended from './src/recommended.mjs'
 
-You can override settings from the shareable config by adding them directly into your
-`.eslintrc.*` file.
-And add file `.eslintrc.yml` under the folder such as `./test` for fast linting with less strict rules:
-```yml
-# .eslintrc.yml
-extends: '@waiting/eslint-config/recommended'
+const rules = {
+  // 'import/no-extraneous-dependencies': 0,
+}
+
+export default tseslint.config({
+  extends: [
+    ...recommended,
+  ],
+  languageOptions: {
+    parserOptions: {
+      project: 'tsconfig.eslint.json',
+    },
+  },
+  rules,
+})
 ```
 
 ## Linting
 
 ```sh
-eslint --fix src/**/*.ts
-eslint src/**/*.{ts,js}
+npx eslint --fix src/**/*.ts
+npx eslint src/**/*.{ts,js}
 ```
 
 
 ## Learn more
 - [ESlint](https://eslint.org/)
+- [ESlint Configuration Files (New)](https://eslint.org/docs/latest/use/configure/configuration-files-new)
+- [ESlint Rules](https://eslint.org/docs/latest/rules/)
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
-- [TSLint will be deprecated](https://github.com/palantir/tslint/issues/4534)
-- [Eslint: Migrating to v6.0.0](https://eslint.org/docs/user-guide/migrating-to-6.0.0#package-loading-simplification)
+  - [typescript-eslint Rules](https://typescript-eslint.io/rules/)
 
 ## License
 [MIT](LICENSE)

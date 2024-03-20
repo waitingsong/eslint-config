@@ -1,7 +1,6 @@
-/* eslint-disable @typescript-eslint/no-var-requires, import/no-extraneous-dependencies, @typescript-eslint/no-require-imports */
 import test from 'tape'
 
-import * as config from '../src/base.js'
+import config from '../src/base.mjs'
 
 
 interface User {

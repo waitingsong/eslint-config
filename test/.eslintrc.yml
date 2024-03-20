@@ -1,8 +1,0 @@
-extends: '../dist/strict.cjs'
-parserOptions:
-  project: 'tsconfig.json'
-
-rules:
-  '@typescript-eslint/member-delimiter-style': 0
-  '@typescript-eslint/semi': 0
-

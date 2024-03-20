@@ -25,14 +25,14 @@ jobs:
         os: [ubuntu-latest]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
 
       - name: Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-modules
         env:
           cache-name: cache-modules
@@ -60,7 +60,8 @@ jobs:
           locale-gen
           locale -a
 
-      - name: Inatall Dependencies
+      - name: Install Dependencies
+        timeout-minutes: 15
         run: |
           # DO NOT execute: npm config set unsafe-perm=true
           export cwd=`pwd`
@@ -71,7 +72,20 @@ jobs:
 
       - name: Build
         run: |
+          pwd
+          whoami
+          export cwd=`pwd`
           npm run build --if-present
+        env:
+          CI: true
+
+      - name: Lint
+        run: |
+          export cwd=`pwd`
+          npm run lint:src
+          npm run lint:cycle
+        env:
+          CI: true
 
       - name: Testing
         run: |

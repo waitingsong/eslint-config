@@ -1,3 +1,6 @@
+
+export * as Consts from './barz.js'
+
 const x = 1
 
 export const foo = 12

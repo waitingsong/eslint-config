@@ -9,12 +9,12 @@
 
 ## 功能
 - `@waiting/eslint-config/recommended` 扩展并定制于以下规则
-  - `eslint-plugin-import`
-  - `eslint-plugin-node`
-  - `eslint-plugin-unicorn`
   - `eslint:recommended`
-  - `@typescript-eslint/recommended`
-  - `@typescript-eslint/recommended-requiring-type-checking`
+  - `typescript-eslint/recommended`
+  - `typescript-eslint/stylisticTypeChecked`
+  - `@stylistic/eslint-plugin/recommended-flat`
+  - `eslint-plugin-import`
+  - `eslint-plugin-unicorn`
 - `@waiting/eslint-config` 扩展于 `@waiting/eslint-config/strict` 并开启更多限制规则
 
 
@@ -26,41 +26,44 @@ npm i -D @waiting/eslint-config eslint
 
 
 ## 用途
-共享配置用于 `.eslintrc.*` 文件 `extends` 项目，详细文档见 [Shareable Configs](https://cn.eslint.org/docs/developer-guide/shareable-configs)
+文档见 [Shareable Configs](https://cn.eslint.org/docs/developer-guide/shareable-configs)
 
-添加以下内容到你的 `.eslintrc.*` 文件：
-- `.eslintrc.yml` 
-  ```yml
-  extends: '@waiting/eslint-config' 
-  ```
-- `.eslintrc.json` 
-  ```json
-  {
-    "extends": "@waiting/eslint-config"
-  }
-  ```
+添加以下内容到你的 `eslint.config.mjs` 文件：
+```js
+import tseslint from 'typescript-eslint'
+import recommended from './src/recommended.mjs'
 
-你可以在 `.eslintrc.*` 文件中覆盖共享配置中的设置。
-并且可以添加在如 `./test` 目录下添加文件 `.eslintrc.yml` 使用较少规则以便提高检查速度：
-```yml
-# .eslintrc.yml
-extends: '@waiting/eslint-config/recommended'
+const rules = {
+  // 'import/no-extraneous-dependencies': 0,
+}
+
+export default tseslint.config({
+  extends: [
+    ...recommended,
+  ],
+  languageOptions: {
+    parserOptions: {
+      project: 'tsconfig.eslint.json',
+    },
+  },
+  rules,
+})
 ```
-
 
 ## 检查
 
 ```sh
-eslint --fix src/**/*.ts
-eslint src/**/*.{ts,js}
+npx eslint --fix src/**/*.ts
+npx eslint src/**/*.{ts,js}
 ```
 
 
 ## Learn more
 - [ESlint](https://cn.eslint.org/)
+- [ESlint Configuration Files (New)](https://eslint.org/docs/latest/use/configure/configuration-files-new)
+- [ESlint Rules](https://eslint.org/docs/latest/rules/)
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
-- [TSLint will be deprecated](https://github.com/palantir/tslint/issues/4534)
-- [Eslint: Migrating to v6.0.0](https://eslint.org/docs/user-guide/migrating-to-6.0.0#package-loading-simplification)
+- [typescript-eslint Rules](https://typescript-eslint.io/rules/)
 
 
 ## License

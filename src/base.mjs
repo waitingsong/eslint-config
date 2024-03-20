@@ -1,42 +1,26 @@
-export default {
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    es2022: true,
-    jest: true,
-    mocha: true,
-    node: true,
-  },
-  extends: [
-    '../plugins/import.yml',
-    '../plugins/node.yml',
-    '../plugins/unicorn.yml',
-  ],
-  globals: {
-    Atomics: 'readonly',
-    document: 'readonly',
-    globalThis: 'readonly',
-    navigator: 'readonly',
-    SharedArrayBuffer: 'readonly',
-    window: 'readonly',
-  },
-  ignorePatterns: [
-    'dist/',
-    'node_modules/',
-  ],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaFeatures: {
-      globalReturn: false,
-      impliedStrict: true,
-    },
-    ecmaVersion: 'latest',
-    extraFileExtensions: ['.cjs', '.mjs', '.cts', '.mts'],
-    project: true,
-    sourceType: 'module',
-  },
-  plugins: ['@typescript-eslint', 'unicorn'],
-  root: true,
-}
+import importPlugin from 'eslint-plugin-import'
+import unicornPlugin from 'eslint-plugin-unicorn'
+import tseslint from 'typescript-eslint'
 
+// https://eslint.org/blog/2022/08/new-config-system-part-2/
+export default [
+  {
+    ignores: [
+      '**/dist',
+      '**/node_modules',
+    ],
+  },
+  {
+    languageOptions: {
+      parser: tseslint.parser,
+      parserOptions: {
+        project: true,
+      },
+    },
+    plugins: {
+      '@typescript-eslint': tseslint.plugin,
+      import: importPlugin,
+      unicorn: unicornPlugin,
+    },
+  },
+]
