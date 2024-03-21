@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.5.0](https://github.com/waitingsong/eslint-config/compare/v10.4.1...v10.5.0) (2024-03-21)
+
+
+### Features
+
+* add recommended rules for test ([aa7e9dd](https://github.com/waitingsong/eslint-config/commit/aa7e9dd52c60648b39da6d17251f55a2acea058f))
+* up ([6243f63](https://github.com/waitingsong/eslint-config/commit/6243f63f4e5aec5fce7ca89d3c4e3fe90a139a58))
+* update src/base.mjs ([4465ea5](https://github.com/waitingsong/eslint-config/commit/4465ea5c0140088cd14c118c7e2a2a9715076e69))
+
 ### [10.4.1](https://github.com/waitingsong/eslint-config/compare/v10.4.0...v10.4.1) (2024-03-21)
 
 
