@@ -19,9 +19,8 @@ const styles = [
   },
 ]
 
-
 const testConfig = {
-  // files: ['packages/*/test/**', 'test/**'],
+  // files: ['packages/*/test/**/*.ts', 'test/**/*.ts'],
   languageOptions: {
     globals: {
       ...globals.mocha,
@@ -36,6 +35,7 @@ const testConfig = {
     'unicorn/filename-case': 0,
   },
 }
+
 
 export default [
   ...base,

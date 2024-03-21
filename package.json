@@ -21,8 +21,8 @@
     ".": "./src/strict.mjs",
     "./recommended": "./src/recommended.mjs",
     "./recommended.js": "./src/recommended.mjs",
-    "./recommended-for-test": "./src/recommended.mjs",
-    "./recommended-for-test.js": "./src/recommended.mjs",
+    "./test": "./src/recommended-for-test.mjs",
+    "./test.js": "./src/recommended-for-test.mjs",
     "./strict": "./src/strict.mjs",
     "./strict.js": "./src/strict.mjs",
     "./package.json": "./package.json"
