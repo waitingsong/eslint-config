@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.4.0](https://github.com/waitingsong/eslint-config/compare/v10.3.1...v10.4.0) (2024-03-21)
+
+
+### Features
+
+* update rule "import/no-extraneous-dependencies" ([7a3c954](https://github.com/waitingsong/eslint-config/commit/7a3c95440ed3e84f1e2a98e798bc93dbb8d3f1ec))
+
 ### [10.3.1](https://github.com/waitingsong/eslint-config/compare/v10.3.0...v10.3.1) (2024-03-21)
 
 
