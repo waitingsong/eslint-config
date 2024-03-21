@@ -25,7 +25,7 @@ const rules = {
   'import/newline-after-import': [1, { count: 2 }],
   'import/no-default-export': 0,
   'import/no-duplicates': 1,
-  'import/no-extraneous-dependencies': [2, { devDependencies: false, optionalDependencies: false, peerDependencies: false }],
+  'import/no-extraneous-dependencies': [2, { devDependencies: false }],
   'import/no-named-default': 2,
   'import/no-namespace': 0,
   'import/order': [
