@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.6.0](https://github.com/waitingsong/eslint-config/compare/v10.5.0...v10.6.0) (2024-03-21)
+
+
+### Features
+
+* **recommended:** set rule @stylistic/padding-line-between-statements ([a3e7b9f](https://github.com/waitingsong/eslint-config/commit/a3e7b9f8feafbcdc5fca3358cb2afcc5f858d195))
+
 ## [10.5.0](https://github.com/waitingsong/eslint-config/compare/v10.4.1...v10.5.0) (2024-03-21)
 
 
