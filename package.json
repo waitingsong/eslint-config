@@ -38,10 +38,10 @@
   "license": "MIT",
   "dependencies": {
     "@stylistic/eslint-plugin": "^1.7.0",
-    "typescript-eslint": "^7.3.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-unicorn": "^51.0.1",
-    "safe-regex": "^2.1.1"
+    "safe-regex": "^2.1.1",
+    "typescript-eslint": "^7.3.1"
   },
   "devDependencies": {
     "@types/tape": "5",
