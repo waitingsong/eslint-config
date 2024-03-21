@@ -63,8 +63,9 @@
     "build": "",
     "lint": "npm run lint:src && npm run lint:test",
     "lint:cycle": "madge --circular --extensions mjs src",
-    "lint:src": "eslint --fix src",
-    "lint:test": "eslint test",
+    "lint:src": "eslint --cache --fix src",
+    "lint:test": "eslint --cache test",
+    "lint:nofix": "eslint --cache src test",
     "test": "tape test/*.test.js",
     "release": "standard-version -r"
   }

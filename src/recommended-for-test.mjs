@@ -18,7 +18,6 @@ const styles = [
     },
   },
 ]
-
 const testConfig = {
   // files: ['packages/*/test/**/*.ts', 'test/**/*.ts'],
   languageOptions: {

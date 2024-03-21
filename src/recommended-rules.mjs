@@ -44,6 +44,11 @@ export const stylesRules = {
       classes: 'always',
     },
   ],
+  '@stylistic/padding-line-between-statements': [2,
+    { blankLine: 'always', prev: ['case', 'default'], next: '*' },
+    // { blankLine: 'never', prev: ['const'], next: ['const'] },
+    // { blankLine: 'never', prev: ['let'], next: ['let'] },
+  ],
   '@stylistic/quote-props': [1, 'as-needed'],
   '@stylistic/semi-style': ['error', 'last'],
   '@stylistic/space-unary-ops': [

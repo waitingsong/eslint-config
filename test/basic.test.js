@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires, import/no-extraneous-dependencies, @typescript-eslint/no-require-imports */
 import test from 'tape'
 
 import config from '../src/base.mjs'
