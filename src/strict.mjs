@@ -1,74 +1,9 @@
 import recommended from './recommended.mjs'
-import { testConfig } from './test-base.mjs'
+import { strictRules } from './strict-rules.mjs'
 
-
-const rules = {
-  // https://typescript-eslint.io/rules/
-  '@typescript-eslint/no-extraneous-class': 0,
-  '@typescript-eslint/no-unnecessary-condition': 2,
-  '@typescript-eslint/no-useless-constructor': 2,
-  '@typescript-eslint/prefer-readonly': 1,
-  '@typescript-eslint/switch-exhaustiveness-check': 1,
-
-  // https://eslint.org/docs/rules/#stylistic-issues
-  'consistent-this': 1,
-  'id-length': [
-    2, {
-      min: 2,
-      exceptions: [
-        '$',
-        '_',
-        'i',
-        'k',
-        't',
-        'v',
-        'x',
-      ],
-    },
-  ],
-  'max-depth': [2, { max: 6 }],
-  'max-len': [
-    2,
-    {
-      code: 180,
-      tabWidth: 2,
-      ignoreComments: true,
-      ignoreTrailingComments: true,
-      ignoreUrls: true,
-      ignoreStrings: true,
-      ignoreTemplateLiterals: true,
-      ignoreRegExpLiterals: true,
-    },
-  ],
-  'max-lines': [2, { max: 1000, skipBlankLines: true, skipComments: true }],
-  'max-lines-per-function': [
-    2, {
-      max: 100, skipBlankLines: true, skipComments: true, IIFEs: true,
-    },
-  ],
-  'no-bitwise': 2,
-  'no-object-constructor': 2,
-  'no-plusplus': 2,
-  'no-unneeded-ternary': 1,
-  'prefer-arrow-callback': 1,
-  'prefer-destructuring': [
-    1,
-    {
-      VariableDeclarator: {
-        array: false,
-        object: true,
-      },
-      AssignmentExpression: {
-        array: false,
-        object: false,
-      },
-    },
-  ],
-}
 
 export default [
   ...recommended,
-  { rules },
-  testConfig,
+  { rules: strictRules },
 ]
 
