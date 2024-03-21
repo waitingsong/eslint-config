@@ -29,11 +29,11 @@ const rules = {
     devDependencies: false,
     optionalDependencies: false,
     bundledDependencies: false,
-    packageDir: [
-      './',
-      '../../node_modules/@mwcp/share/',
-      '../../node_modules/@mwcp/boot/',
-    ],
+    // packageDir: [
+    //   './',
+    //   '../../node_modules/@mwcp/share/',
+    //   '../../node_modules/@mwcp/boot/',
+    // ],
   }],
   'import/no-named-default': 2,
   'import/no-namespace': 0,
