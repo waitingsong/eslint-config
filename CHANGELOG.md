@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.3.1](https://github.com/waitingsong/eslint-config/compare/v10.3.0...v10.3.1) (2024-03-21)
+
+
+### Bug Fixes
+
+* testConfig.files ([b24517a](https://github.com/waitingsong/eslint-config/commit/b24517a7f813ed7805cf52be88340e825b806962))
+
 ## [10.3.0](https://github.com/waitingsong/eslint-config/compare/v10.2.0...v10.3.0) (2024-03-21)
 
 
