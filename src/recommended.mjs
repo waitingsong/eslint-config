@@ -51,6 +51,12 @@ const styles = [
           ExportDeclaration: { multiline: true, minProperties: 2 },
         },
       ],
+      '@stylistic/padded-blocks': [
+        1,
+        {
+          classes: 'always',
+        },
+      ],
       '@stylistic/quote-props': [1, 'as-needed'],
       '@stylistic/semi-style': ['error', 'last'],
       '@stylistic/space-unary-ops': [
