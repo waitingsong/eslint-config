@@ -17,6 +17,7 @@ const rules = {
   ],
 }
 
+// https://typescript-eslint.io/packages/typescript-eslint/#config
 export default eslint.config({
   extends: [
     ...recommended,
