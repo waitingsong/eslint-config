@@ -2,7 +2,7 @@ import globals from 'globals'
 
 
 export const testConfig = {
-  files: ['test/**'],
+  files: ['packages/*/test/**', 'test/**'],
   languageOptions: {
     globals: {
       ...globals.mocha,
