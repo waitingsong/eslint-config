@@ -8,7 +8,7 @@ import tseslint from 'typescript-eslint'
 import base from './base.mjs'
 import importPluginRules from './plugin/import.mjs'
 import unicornPluginRules from './plugin/unicorn.mjs'
-import { stylesRules, lintRules } from './recommended-rules.mjs'
+import { stylesRules, lintRules } from './rule/recommended-rules.mjs'
 
 
 // https://eslint.style/packages/default

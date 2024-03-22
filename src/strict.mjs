@@ -2,7 +2,7 @@
 import tseslint from 'typescript-eslint'
 
 import recommended from './recommended.mjs'
-import { strictRules } from './strict-rules.mjs'
+import { strictRules } from './rule/strict-rules.mjs'
 
 
 export default [
