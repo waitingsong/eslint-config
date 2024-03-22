@@ -95,6 +95,7 @@ export const lintRules = {
   'no-unmodified-loop-condition': 2,
   'no-lonely-if': 1,
 
+  '@typescript-eslint/no-extraneous-class': 0,
   '@typescript-eslint/no-require-imports': 2,
   '@typescript-eslint/prefer-includes': 1,
   '@typescript-eslint/require-array-sort-compare': 2,

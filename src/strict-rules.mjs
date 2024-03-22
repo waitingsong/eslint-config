@@ -1,7 +1,6 @@
 
 export const strictRules = {
   // https://typescript-eslint.io/rules/
-  '@typescript-eslint/no-extraneous-class': 0,
   '@typescript-eslint/no-unnecessary-condition': 2,
   '@typescript-eslint/no-useless-constructor': 2,
   '@typescript-eslint/prefer-readonly': 1,
