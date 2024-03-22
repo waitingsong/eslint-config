@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import eslint from '@eslint/js'
 import stylistic from '@stylistic/eslint-plugin'
 import globals from 'globals'

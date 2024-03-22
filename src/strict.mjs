@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import tseslint from 'typescript-eslint'
 
 import recommended from './recommended.mjs'

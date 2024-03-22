@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import globals from 'globals'
 
 
@@ -5,6 +6,7 @@ export const testConfig = {
   files: ['packages/*/test/**', 'test/**'],
   languageOptions: {
     globals: {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
       ...globals.mocha,
     },
   },
