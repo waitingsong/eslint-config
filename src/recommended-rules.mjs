@@ -64,6 +64,7 @@ export const stylesRules = {
       },
     },
   ],
+  '@stylistic/switch-colon-spacing': 2,
 }
 
 
