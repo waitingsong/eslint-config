@@ -1,9 +1,10 @@
 
 export const strictRules = {
-  // https://typescript-eslint.io/rules/
+  // https://typescript-eslint.io/rules/?=xrecommended-strict-xstylistic
   '@typescript-eslint/no-extraneous-class': 0,
-  '@typescript-eslint/no-unnecessary-condition': 2,
+  '@typescript-eslint/no-unnecessary-type-arguments': 0,
   '@typescript-eslint/no-useless-constructor': 2,
+  '@typescript-eslint/prefer-literal-enum-member': 0,
   '@typescript-eslint/prefer-readonly': 1,
   '@typescript-eslint/switch-exhaustiveness-check': 1,
 
