@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.12.0](https://github.com/waitingsong/eslint-config/compare/v10.11.0...v10.12.0) (2024-03-22)
+
+
+### Features
+
+* **strict:** disable rule @typescript-eslint/require-await ([1472f71](https://github.com/waitingsong/eslint-config/commit/1472f719c9ca9a07f0d623dc9b4f0c00e8c2eb68))
+
 ## [10.11.0](https://github.com/waitingsong/eslint-config/compare/v10.10.0...v10.11.0) (2024-03-22)
 
 
