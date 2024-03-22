@@ -75,6 +75,7 @@ export const lintRules = {
     'error',
     {
       'ts-expect-error': 'allow-with-description',
+      minimumDescriptionLength: 3,
     },
   ],
   'default-param-last': 0,
