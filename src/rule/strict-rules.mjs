@@ -6,6 +6,7 @@ export const strictRules = {
   '@typescript-eslint/no-useless-constructor': 2,
   '@typescript-eslint/prefer-literal-enum-member': 0,
   '@typescript-eslint/prefer-readonly': 1,
+  '@typescript-eslint/require-await': 0,
   '@typescript-eslint/switch-exhaustiveness-check': 1,
 
   // https://eslint.org/docs/rules/#stylistic-issues
