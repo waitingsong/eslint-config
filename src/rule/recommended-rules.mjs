@@ -72,7 +72,7 @@ export const lintRules = {
   // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
   // https://typescript-eslint.io/rules/array-type
   '@typescript-eslint/ban-ts-comment': [
-    'error',
+    0,
     {
       'ts-expect-error': 'allow-with-description',
       minimumDescriptionLength: 3,
