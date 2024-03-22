@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.14.0](https://github.com/waitingsong/eslint-config/compare/v10.13.0...v10.14.0) (2024-03-22)
+
+
+### Features
+
+* **strict:** disable rule @typescript-eslint/use-unknown-in-catch-callback-variable ([94d2564](https://github.com/waitingsong/eslint-config/commit/94d2564b70c4aa11df3dc9c4a4c3a0ad01d883fb))
+
 ## [10.13.0](https://github.com/waitingsong/eslint-config/compare/v10.12.0...v10.13.0) (2024-03-22)
 
 
