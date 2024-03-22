@@ -1,6 +1,13 @@
 
 export const strictRules = {
   // https://typescript-eslint.io/rules/?=xrecommended-strict-xstylistic
+  '@typescript-eslint/ban-ts-comment': [
+    0,
+    {
+      'ts-expect-error': 'allow-with-description',
+      minimumDescriptionLength: 3,
+    },
+  ],
   '@typescript-eslint/no-extraneous-class': 0,
   '@typescript-eslint/no-unnecessary-type-arguments': 0,
   '@typescript-eslint/no-useless-constructor': 2,
