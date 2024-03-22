@@ -1,0 +1,85 @@
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: ci-win
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }} && ${{ github.actor != 'dependabot[bot]' }}
+    # if:  github.actor != 'dependabot[bot]'
+
+    strategy:
+      matrix:
+        node: ['lts/*']
+        os: [windows-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Cache
+        uses: actions/cache@v4
+        id: cache-win
+        env:
+          cache-name: cache-win
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.OS }}-build-${{ env.cache-name }}-${{ github.ref }}-${{ hashFiles('**/lockfiles') }}
+
+      - name: Prepare
+        shell: bash
+        run: |
+          pwd
+          uname -a
+          npm -v && node -v
+          git --version
+          openssl version
+          git config --local core.autocrlf false
+          git config --local core.eol lf
+          export cwd=`pwd`
+          git config --global --add safe.directory $cwd
+
+      - name: Install Dependencies
+        timeout-minutes: 15
+        shell: bash
+        run: |
+          export cwd=`pwd`
+          npm i -g standard-version tsx zx
+          npm i
+        env:
+          CI: true
+
+      - name: Build
+        shell: bash
+        run: |
+          pwd
+          whoami
+          export cwd=`pwd`
+          npm run build --if-present
+        env:
+          CI: true
+
+      - name: Lint
+        shell: bash
+        run: |
+          export cwd=`pwd`
+          npm run lint:src
+          npm run lint:cycle
+        env:
+          CI: true
+
+      - name: Testing
+        shell: bash
+        run: |
+          npm run test
+        env:
+          CI: true
+
