@@ -99,6 +99,7 @@ export const lintRules = {
   '@typescript-eslint/no-require-imports': 2,
   '@typescript-eslint/prefer-includes': 1,
   '@typescript-eslint/require-array-sort-compare': 2,
+  '@typescript-eslint/require-await': 0,
   'no-return-await': 0,
   '@typescript-eslint/return-await': 2,
 
