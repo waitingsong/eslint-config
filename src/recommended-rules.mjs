@@ -5,6 +5,7 @@ export const stylesRules = {
   '@stylistic/function-paren-newline': 1,
   '@stylistic/implicit-arrow-linebreak': 2,
   '@stylistic/linebreak-style': ['error', 'unix'],
+  '@stylistic/max-statements-per-line': [2, { max: 2 }],
   '@stylistic/member-delimiter-style': [
     2,
     {
