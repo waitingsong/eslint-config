@@ -86,6 +86,14 @@ export const lintRules = {
   'no-use-before-define': 0,
   '@typescript-eslint/no-use-before-define': ['error', { functions: false, typedefs: false }],
 
+  '@typescript-eslint/no-extraneous-class': 0,
+  '@typescript-eslint/no-require-imports': 2,
+  '@typescript-eslint/prefer-includes': 1,
+  '@typescript-eslint/require-array-sort-compare': 2,
+  '@typescript-eslint/require-await': 0,
+  'no-return-await': 0,
+  '@typescript-eslint/return-await': 2,
+
   // https://eslint.org/docs/rules/#best-practices
   curly: 2,
   eqeqeq: 2,
@@ -94,14 +102,6 @@ export const lintRules = {
   '@typescript-eslint/no-throw-literal': 'error',
   'no-unmodified-loop-condition': 2,
   'no-lonely-if': 1,
-
-  '@typescript-eslint/no-extraneous-class': 0,
-  '@typescript-eslint/no-require-imports': 2,
-  '@typescript-eslint/prefer-includes': 1,
-  '@typescript-eslint/require-array-sort-compare': 2,
-  '@typescript-eslint/require-await': 0,
-  'no-return-await': 0,
-  '@typescript-eslint/return-await': 2,
 
   // https://eslint.org/docs/rules/
   'no-await-in-loop': 1,
