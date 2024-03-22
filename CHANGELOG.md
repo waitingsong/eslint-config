@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.8.0](https://github.com/waitingsong/eslint-config/compare/v10.7.0...v10.8.0) (2024-03-22)
+
+
+### Features
+
+* **recommended:** enable rule @stylistic/switch-colon-spacing ([6ed454f](https://github.com/waitingsong/eslint-config/commit/6ed454fea4586ff4522be3b4e802dbbcf0bd9e25))
+
 ## [10.7.0](https://github.com/waitingsong/eslint-config/compare/v10.6.0...v10.7.0) (2024-03-22)
 
 
