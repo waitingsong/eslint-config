@@ -41,7 +41,7 @@ const testConfig = {
 export default [
   ...base,
   eslint.configs.recommended,
-  ...tseslint.configs.recommended,
+  ...tseslint.configs.recommendedTypeChecked,
   ...tseslint.configs.stylisticTypeChecked,
   ...styles,
   ...importPluginRules,
