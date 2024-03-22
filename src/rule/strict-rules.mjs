@@ -8,6 +8,7 @@ export const strictRules = {
   '@typescript-eslint/prefer-readonly': 1,
   '@typescript-eslint/require-await': 0,
   '@typescript-eslint/switch-exhaustiveness-check': 1,
+  '@typescript-eslint/use-unknown-in-catch-callback-variable': 0,
 
   // https://eslint.org/docs/rules/#stylistic-issues
   'consistent-this': 1,
