@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.15.0](https://github.com/waitingsong/eslint-config/compare/v10.14.0...v10.15.0) (2024-03-22)
+
+
+### Features
+
+* **recommended:** disable rule @typescript-eslint/ban-ts-comment ([a039ba3](https://github.com/waitingsong/eslint-config/commit/a039ba32d96d9dce8b23971e8261ed39320aad70))
+
 ## [10.14.0](https://github.com/waitingsong/eslint-config/compare/v10.13.0...v10.14.0) (2024-03-22)
 
 
