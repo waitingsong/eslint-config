@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.9.0](https://github.com/waitingsong/eslint-config/compare/v10.8.0...v10.9.0) (2024-03-22)
+
+
+### Features
+
+* move rule @typescript-eslint/no-extraneous-class from strict to recommended ([f19994f](https://github.com/waitingsong/eslint-config/commit/f19994f50ebb652b9eaede8a7ee5da653d4d1ad2))
+* **strict:** disable rule ([31d78a6](https://github.com/waitingsong/eslint-config/commit/31d78a6d822ee851343bf2fbbd40fe56ec2695fa))
+* **strict:** enable strict rules from typescript-eslint ([d11fb6d](https://github.com/waitingsong/eslint-config/commit/d11fb6d6207073209977d4f3eb5e13fdc69177e2))
+* use recommendedTypeChecked and strictTypeChecked ([3dc5aa0](https://github.com/waitingsong/eslint-config/commit/3dc5aa02ea6e843321e31fc2132d7c5982cf99f8))
+
 ## [10.8.0](https://github.com/waitingsong/eslint-config/compare/v10.7.0...v10.8.0) (2024-03-22)
 
 
