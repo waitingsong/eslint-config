@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.17.0](https://github.com/waitingsong/eslint-config/compare/v10.16.0...v10.17.0) (2024-03-23)
+
+
+### Features
+
+* **strict:** set rule @typescript-eslint/restrict-template-expressions ([44e82dc](https://github.com/waitingsong/eslint-config/commit/44e82dc247780183d10fd472cefb08efba06eb27))
+
 ## [10.16.0](https://github.com/waitingsong/eslint-config/compare/v10.15.0...v10.16.0) (2024-03-22)
 
 
