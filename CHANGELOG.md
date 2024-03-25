@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.18.0](https://github.com/waitingsong/eslint-config/compare/v10.17.0...v10.18.0) (2024-03-25)
+
+
+### Features
+
+* **recommended:** disable rule @stylistic/linebreak-style when CI and Win32 ([91578b7](https://github.com/waitingsong/eslint-config/commit/91578b7e314be991d80181f89d64c458d57e9515))
+
 ## [10.17.0](https://github.com/waitingsong/eslint-config/compare/v10.16.0...v10.17.0) (2024-03-23)
 
 
