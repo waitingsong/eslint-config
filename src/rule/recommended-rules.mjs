@@ -127,3 +127,16 @@ export const lintRules = {
   'require-unicode-regexp': 1,
 }
 
+
+const CI = !! ((process.env.CI
+  ?? process.env.MIDWAY_SERVER_ENV === 'unittest')
+  || process.env.MIDWAY_SERVER_ENV === 'local'
+  || process.env.NODE_ENV === 'unittest'
+  || process.env.NODE_ENV === 'local'
+)
+const isWin32 = process.platform === 'win32'
+
+if (isWin32 && CI) {
+  stylesRules['@stylistic/linebreak-style'] = 0
+}
+
