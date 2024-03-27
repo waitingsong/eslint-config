@@ -81,6 +81,8 @@ export const lintRules = {
   ],
   'default-param-last': 0,
   '@typescript-eslint/default-param-last': 2,
+  'dot-notation': 0,
+  '@typescript-eslint/dot-notation': 0,
   '@typescript-eslint/explicit-function-return-type': 0,
   'no-shadow': 0,
   '@typescript-eslint/no-shadow': 2,

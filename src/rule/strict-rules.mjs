@@ -9,6 +9,8 @@ export const strictRules = {
       minimumDescriptionLength: 3,
     },
   ],
+  'dot-notation': 0,
+  '@typescript-eslint/dot-notation': 0,
   '@typescript-eslint/no-extraneous-class': 0,
   '@typescript-eslint/no-unnecessary-type-arguments': 0,
   '@typescript-eslint/no-useless-constructor': 2,
