@@ -1,5 +1,6 @@
 
 export const strictRules = {
+  '@typescript-eslint/prefer-ts-expect-error': 0,
   // https://typescript-eslint.io/rules/?=xrecommended-strict-xstylistic
   '@typescript-eslint/ban-ts-comment': [
     0,

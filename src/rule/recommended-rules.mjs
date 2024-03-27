@@ -69,6 +69,7 @@ export const stylesRules = {
 
 
 export const lintRules = {
+  '@typescript-eslint/prefer-ts-expect-error': 0,
   // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
   // https://typescript-eslint.io/rules/array-type
   '@typescript-eslint/ban-ts-comment': [
