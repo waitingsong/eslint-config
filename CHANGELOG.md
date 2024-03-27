@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.21.0](https://github.com/waitingsong/eslint-config/compare/v10.20.0...v10.21.0) (2024-03-27)
+
+
+### Features
+
+* disable rules dot-notation and @typescript-eslint/dot-notation ([07cb082](https://github.com/waitingsong/eslint-config/commit/07cb0820f1b14ffd130590609337f7552d97f8cc))
+
 ## [10.20.0](https://github.com/waitingsong/eslint-config/compare/v10.19.0...v10.20.0) (2024-03-27)
 
 
