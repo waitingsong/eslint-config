@@ -13,6 +13,7 @@ export const strictRules = {
   '@typescript-eslint/no-unnecessary-type-arguments': 0,
   '@typescript-eslint/no-useless-constructor': 2,
   '@typescript-eslint/prefer-literal-enum-member': 0,
+  '@typescript-eslint/prefer-optional-chain': 1,
   '@typescript-eslint/prefer-readonly': 1,
   '@typescript-eslint/require-await': 0,
   '@typescript-eslint/switch-exhaustiveness-check': 1,
