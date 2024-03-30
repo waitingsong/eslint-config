@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.22.0](https://github.com/waitingsong/eslint-config/compare/v10.21.0...v10.22.0) (2024-03-30)
+
+
+### Features
+
+* **recommended:** change @stylistic/max-statements-per-line value of max to 3 ([2be242e](https://github.com/waitingsong/eslint-config/commit/2be242ec3b9f7b5ea97c81a40e457e5940c19cc0))
+
 ## [10.21.0](https://github.com/waitingsong/eslint-config/compare/v10.20.0...v10.21.0) (2024-03-27)
 
 
