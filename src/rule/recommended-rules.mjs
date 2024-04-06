@@ -27,7 +27,7 @@ export const stylesRules = {
       },
     },
   ],
-  '@stylistic/newline-per-chained-call': [2, { ignoreChainWithDepth: 3}],
+  '@stylistic/newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }],
   '@stylistic/no-extra-parens': ['error', 'all'],
   '@stylistic/no-multiple-empty-lines': ['error', { max: 4, maxBOF: 1, maxEOF: 2 }],
   '@stylistic/no-trailing-spaces': ['error', { skipBlankLines: false, ignoreComments: true }],
