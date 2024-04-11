@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.25.0](https://github.com/waitingsong/eslint-config/compare/v10.24.0...v10.25.0) (2024-04-11)
+
+
+### Features
+
+* **recommended:** disable rule @stylistic/padded-blocks ([92dfc2a](https://github.com/waitingsong/eslint-config/commit/92dfc2ad64ac339077e9478d68f27dafec2ab363))
+
 ## [10.24.0](https://github.com/waitingsong/eslint-config/compare/v10.23.0...v10.24.0) (2024-04-11)
 
 
