@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.24.0](https://github.com/waitingsong/eslint-config/compare/v10.23.0...v10.24.0) (2024-04-11)
+
+
+### Features
+
+* **recommended:** change rule @stylistic/function-paren-newline ([b3501e4](https://github.com/waitingsong/eslint-config/commit/b3501e4468c60ae3db97fe19fe785594d616ae43))
+
 ## [10.23.0](https://github.com/waitingsong/eslint-config/compare/v10.22.0...v10.23.0) (2024-04-06)
 
 ## [10.22.0](https://github.com/waitingsong/eslint-config/compare/v10.21.0...v10.22.0) (2024-03-30)
