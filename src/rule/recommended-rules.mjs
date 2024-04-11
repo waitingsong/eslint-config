@@ -2,7 +2,7 @@
 // https://eslint.style/packages/default
 export const stylesRules = {
   '@stylistic/func-call-spacing': ['error', 'never'],
-  '@stylistic/function-paren-newline': 1,
+  '@stylistic/function-paren-newline': [1, 'multiline-arguments'],
   '@stylistic/implicit-arrow-linebreak': 2,
   '@stylistic/linebreak-style': ['error', 'unix'],
   '@stylistic/max-statements-per-line': [2, { max: 2 }],
