@@ -40,12 +40,7 @@ export const stylesRules = {
       ExportDeclaration: { multiline: true, minProperties: 2 },
     },
   ],
-  '@stylistic/padded-blocks': [
-    1,
-    {
-      classes: 'always',
-    },
-  ],
+  '@stylistic/padded-blocks': 0,
   '@stylistic/padding-line-between-statements': [2,
     { blankLine: 'always', prev: ['case', 'default'], next: '*' },
     // { blankLine: 'never', prev: ['const'], next: ['const'] },
