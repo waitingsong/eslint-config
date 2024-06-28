@@ -13,7 +13,7 @@
     "typescript"
   ],
   "engines": {
-    "node": ">=20.11.0"
+    "node": ">=18.11.0"
   },
   "type": "module",
   "main": "src/strict.mjs",
