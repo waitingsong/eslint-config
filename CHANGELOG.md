@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.30.0](https://github.com/waitingsong/eslint-config/compare/v10.29.0...v10.30.0) (2024-06-30)
+
+
+### Features
+
+* update rules for test ([aec77db](https://github.com/waitingsong/eslint-config/commit/aec77db6427dca048a5398b345bc729058f32006))
+
 ## [10.29.0](https://github.com/waitingsong/eslint-config/compare/v10.28.0...v10.29.0) (2024-06-30)
 
 
