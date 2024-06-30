@@ -9,6 +9,11 @@ export const strictRules = {
       minimumDescriptionLength: 3,
     },
   ],
+  // https://typescript-eslint.io/blog/changes-to-consistent-type-imports-with-decorators/
+  // https://typescript-eslint.io/blog/consistent-type-imports-and-exports-why-and-how/
+  '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: true }],
+  '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports' }],
+
   'dot-notation': 0,
   '@typescript-eslint/dot-notation': 0,
   '@typescript-eslint/no-extraneous-class': 0,
