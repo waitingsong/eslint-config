@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.29.0](https://github.com/waitingsong/eslint-config/compare/v10.28.0...v10.29.0) (2024-06-30)
+
+
+### Features
+
+* **plugin:** update import.mjs ([f9fe8f3](https://github.com/waitingsong/eslint-config/commit/f9fe8f3f6c2e42a168a57588926b0ffbdd32c369))
+
 ## [10.28.0](https://github.com/waitingsong/eslint-config/compare/v10.27.0...v10.28.0) (2024-06-30)
 
 
