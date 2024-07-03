@@ -34,9 +34,9 @@ const testConfig = {
     'import/no-extraneous-dependencies': 0,
     'no-console': 0,
     'unicorn/filename-case': 0,
-    'import/consistent-type-specifier-style': [1],
+    'import/consistent-type-specifier-style': [0],
     '@typescript-eslint/consistent-type-exports': [1, { fixMixedExportsWithInlineTypeSpecifier: true }],
-    '@typescript-eslint/consistent-type-imports': [1, { fixStyle: 'inline-type-imports' }],
+    '@typescript-eslint/consistent-type-imports': [1],
   },
 }
 
