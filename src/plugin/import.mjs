@@ -19,7 +19,6 @@ const rules = {
   'import/no-named-as-default-member': 2,
 
   // https://github.com/benmosher/eslint-plugin-import#style-guide
-  'import/consistent-type-specifier-style': ['error'],
   'import/exports-last': 0,
   'import/first': 2,
   'import/max-dependencies': [1, { max: 20 }],
