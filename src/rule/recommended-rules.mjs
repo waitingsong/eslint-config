@@ -27,7 +27,7 @@ export const stylesRules = {
       },
     },
   ],
-  '@stylistic/newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }],
+  '@stylistic/newline-per-chained-call': [2, { ignoreChainWithDepth: 5 }],
   '@stylistic/no-extra-parens': ['error', 'all', {
     ternaryOperandBinaryExpressions: false,
     nestedBinaryExpressions: false
