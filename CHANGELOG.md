@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [12.0.0](https://github.com/waitingsong/eslint-config/compare/v11.3.0...v12.0.0) (2024-08-25)
+
+
+### Features
+
+* add rules of unicorn.mjs ([fbe8879](https://github.com/waitingsong/eslint-config/commit/fbe887957ac7eaacadd491bcfb3a2f8e532e1130))
+* bump deps version ([af20cad](https://github.com/waitingsong/eslint-config/commit/af20cad7d4a591027f3283f62a39ae42de79b00f))
+
 ## [11.3.0](https://github.com/waitingsong/eslint-config/compare/v11.2.0...v11.3.0) (2024-08-16)
 
 
