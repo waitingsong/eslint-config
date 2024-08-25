@@ -37,11 +37,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@stylistic/eslint-plugin": "^2.3.0",
+    "@stylistic/eslint-plugin": "^2.6.4",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-unicorn": "^54.0.0",
+    "eslint-plugin-unicorn": "^55.0.0",
     "safe-regex": "^2.1.1",
-    "typescript-eslint": "^7.14.1"
+    "typescript-eslint": "^7.18.0"
   },
   "devDependencies": {
     "@types/tape": "5",
