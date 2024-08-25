@@ -12,6 +12,19 @@ const rules = {
       },
     },
   ],
+  'unicorn/no-thenable': [2],
+  'unicorn/no-useless-spread': [1],
+  'unicorn/prefer-array-flat': [1],
+  'unicorn/prefer-array-some': [1],
+  'unicorn/prefer-at': [1],
+  'unicorn/prefer-code-point': [1],
+  'unicorn/prefer-date-now': [2],
+  'unicorn/prefer-modern-math-apis': [2],
+  'unicorn/prefer-node-protocol': [1],
+  'unicorn/prefer-string-raw': [2],
+  'unicorn/prefer-string-slice': [2],
+  'unicorn/prefer-type-error': [1],
+  'unicorn/text-encoding-identifier-case': [1],
 }
 
 export default [
