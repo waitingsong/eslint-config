@@ -5,9 +5,9 @@ import stylistic from '@stylistic/eslint-plugin'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
-import base from './base.mjs'
-import importPluginRules from './plugin/import.mjs'
-import unicornPluginRules from './plugin/unicorn.mjs'
+import { base } from './base.mjs'
+import { importPluginRules } from './plugin/import.mjs'
+import { unicornPluginRules } from './plugin/unicorn.mjs'
 import { stylesRules, lintRules } from './rule/recommended-rules.mjs'
 
 

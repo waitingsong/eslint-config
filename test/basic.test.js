@@ -1,6 +1,6 @@
 import test from 'tape'
 
-import config from '../src/base.mjs'
+import config from '../src/recommended.mjs'
 
 
 test('test basic properties of config', (tt) => {

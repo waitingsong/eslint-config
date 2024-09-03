@@ -1,3 +1,4 @@
+import stylistic from '@stylistic/eslint-plugin'
 
 // https://eslint.style/packages/default
 export const stylesRules = {
@@ -142,3 +143,13 @@ if (isWin32 && CI) {
   stylesRules['@stylistic/linebreak-style'] = 0
 }
 
+
+// https://eslint.style/packages/default
+export const recommendedStyles = [
+  stylistic.configs['recommended-flat'],
+  {
+    rules: {
+      ...stylesRules,
+    },
+  },
+]

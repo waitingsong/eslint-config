@@ -6,7 +6,7 @@ import tseslint from 'typescript-eslint'
 // https://eslint.org/blog/2022/08/new-config-system-part-2/
 // https://typescript-eslint.io/getting-started/typed-linting/monorepos
 
-export default [
+export const base = [
   {
     ignores: [
       '**/dist',
@@ -16,6 +16,8 @@ export default [
   },
   {
     languageOptions: {
+      // ecmaVersion: 'latest',
+      // sourceType: 'module',
       parser: tseslint.parser,
       parserOptions: {
         project: true,

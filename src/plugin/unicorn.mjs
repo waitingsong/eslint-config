@@ -27,6 +27,6 @@ const rules = {
   'unicorn/text-encoding-identifier-case': [1],
 }
 
-export default [
+export const unicornPluginRules = [
   { rules },
 ]

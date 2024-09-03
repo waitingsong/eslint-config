@@ -76,6 +76,6 @@ const rules = {
   ],
 }
 
-export default [
+export const importPluginRules = [
   { rules },
 ]
