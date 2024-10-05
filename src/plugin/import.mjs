@@ -71,6 +71,10 @@ const rules = {
           position: 'after',
         },
       ],
+      named: {
+        enabled: true,
+        types: 'types-first',
+      },
       distinctGroup: false,
     },
   ],
