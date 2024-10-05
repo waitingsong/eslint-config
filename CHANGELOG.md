@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.0.0](https://github.com/waitingsong/eslint-config/compare/v14.10.0...v15.0.0) (2024-10-05)
+
+
+### Features
+
+* move eslint from devDependencies to dependencies ([012bfe2](https://github.com/waitingsong/eslint-config/commit/012bfe2410d0efac40abc1ebc673ef8f739e9072))
+
 ## [14.10.0](https://github.com/waitingsong/eslint-config/compare/v14.9.0...v14.10.0) (2024-10-05)
 
 
