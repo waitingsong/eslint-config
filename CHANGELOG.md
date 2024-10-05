@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.9.0](https://github.com/waitingsong/eslint-config/compare/v14.8.0...v14.9.0) (2024-10-05)
+
+
+### Features
+
+* add rule unicorn/prefer-regexp-test ([fb75f05](https://github.com/waitingsong/eslint-config/commit/fb75f0565a32fce28571a88561c894386548de52))
+
 ## [14.8.0](https://github.com/waitingsong/eslint-config/compare/v14.7.0...v14.8.0) (2024-10-05)
 
 
