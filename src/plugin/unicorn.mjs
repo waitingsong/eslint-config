@@ -23,6 +23,7 @@ const rules = {
   'unicorn/prefer-date-now': [2],
   'unicorn/prefer-global-this': [1],
   'unicorn/prefer-json-parse-buffer': [1],
+  'unicorn/prefer-keyboard-event-key': [1],
   'unicorn/prefer-math-min-max': [1],
   'unicorn/prefer-math-trunc': [1],
   'unicorn/prefer-modern-math-apis': [2],
