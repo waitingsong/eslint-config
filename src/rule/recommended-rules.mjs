@@ -103,7 +103,7 @@ export const lintRules = {
   eqeqeq: 2,
   'no-eval': 2,
   'no-throw-literal': 'off',
-  '@typescript-eslint/no-throw-literal': 'error',
+  '@typescript-eslint/only-throw-error': 'error',
   'no-unmodified-loop-condition': 2,
   'no-lonely-if': 1,
 
