@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.2.0](https://github.com/waitingsong/eslint-config/compare/v14.1.0...v14.2.0) (2024-10-05)
+
+
+### Features
+
+* add rule unicorn/no-new-buffer ([6fce24e](https://github.com/waitingsong/eslint-config/commit/6fce24eeda9c51043f6ea3ddc709717caf11462a))
+* add rule unicorn/prefer-global-this ([5b0bf74](https://github.com/waitingsong/eslint-config/commit/5b0bf7464438211952c7d0b3380d9069d269f074))
+* add rule unicorn/prefer-json-parse-buffer ([91f199a](https://github.com/waitingsong/eslint-config/commit/91f199a40abc55c3cc5af3b372fc58ec64b89aaa))
+
 ## [14.1.0](https://github.com/waitingsong/eslint-config/compare/v14.0.0...v14.1.0) (2024-10-05)
 
 
