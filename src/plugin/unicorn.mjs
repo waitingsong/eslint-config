@@ -1,6 +1,7 @@
 // https://github.com/sindresorhus/eslint-plugin-unicorn#readme
 
 const rules = {
+  'unicorn/consistent-existence-index-check': [1],
   'unicorn/filename-case': [
     2,
     {
