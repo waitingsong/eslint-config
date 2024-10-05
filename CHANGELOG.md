@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.7.0](https://github.com/waitingsong/eslint-config/compare/v14.6.0...v14.7.0) (2024-10-05)
+
+
+### Features
+
+* add rule unicorn/prefer-module ([0cb6647](https://github.com/waitingsong/eslint-config/commit/0cb664722d644ec9afa9feb77304f4ed9a1cc1c2))
+
 ## [14.6.0](https://github.com/waitingsong/eslint-config/compare/v14.5.0...v14.6.0) (2024-10-05)
 
 
