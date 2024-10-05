@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.1.0](https://github.com/waitingsong/eslint-config/compare/v15.0.0...v15.1.0) (2024-10-05)
+
+
+### Features
+
+* update rule @typescript-eslint/no-unused-expressions ([288bbd1](https://github.com/waitingsong/eslint-config/commit/288bbd1a5fc2a2ac9a1ed6f4b3f2dea9358107e2))
+
 ## [15.0.0](https://github.com/waitingsong/eslint-config/compare/v14.10.0...v15.0.0) (2024-10-05)
 
 
