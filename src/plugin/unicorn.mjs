@@ -22,6 +22,7 @@ const rules = {
   'unicorn/prefer-date-now': [2],
   'unicorn/prefer-global-this': [1],
   'unicorn/prefer-json-parse-buffer': [1],
+  'unicorn/prefer-math-min-max': [1],
   'unicorn/prefer-modern-math-apis': [2],
   'unicorn/prefer-node-protocol': [1],
   'unicorn/prefer-string-raw': [2],
