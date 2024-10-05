@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.6.0](https://github.com/waitingsong/eslint-config/compare/v14.5.0...v14.6.0) (2024-10-05)
+
+
+### Features
+
+* add rule unicorn/prefer-keyboard-event-key ([170cbe5](https://github.com/waitingsong/eslint-config/commit/170cbe57f8d9ec7062cf70e1ca4319210c44015d))
+
 ## [14.5.0](https://github.com/waitingsong/eslint-config/compare/v14.4.0...v14.5.0) (2024-10-05)
 
 ## [14.4.0](https://github.com/waitingsong/eslint-config/compare/v14.3.0...v14.4.0) (2024-10-05)
