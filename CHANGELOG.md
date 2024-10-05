@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.3.0](https://github.com/waitingsong/eslint-config/compare/v14.2.0...v14.3.0) (2024-10-05)
+
+
+### Features
+
+* add rule unicorn/consistent-existence-index-check ([c89b48c](https://github.com/waitingsong/eslint-config/commit/c89b48c3141377d38b24aaaac1048676ffacb968))
+* add rule unicorn/prefer-math-min-max ([ce5f4ce](https://github.com/waitingsong/eslint-config/commit/ce5f4cedbe9949168b895503d816f425f52f32d6))
+
 ## [14.2.0](https://github.com/waitingsong/eslint-config/compare/v14.1.0...v14.2.0) (2024-10-05)
 
 
