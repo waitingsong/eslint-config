@@ -30,6 +30,7 @@ const rules = {
   'unicorn/prefer-modern-math-apis': [2],
   'unicorn/prefer-node-protocol': [1],
   'unicorn/prefer-reflect-apply': [1],
+  'unicorn/prefer-regexp-test': [1],
   'unicorn/prefer-string-raw': [2],
   'unicorn/prefer-string-slice': [2],
   'unicorn/prefer-type-error': [1],
