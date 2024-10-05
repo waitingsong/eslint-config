@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.4.0](https://github.com/waitingsong/eslint-config/compare/v14.3.0...v14.4.0) (2024-10-05)
+
+
+### Features
+
+* add rule unicorn/prefer-math-trunc ([604b61c](https://github.com/waitingsong/eslint-config/commit/604b61c567ea5e6d834c8a2882ba986fa7fc61f5))
+
 ## [14.3.0](https://github.com/waitingsong/eslint-config/compare/v14.2.0...v14.3.0) (2024-10-05)
 
 
