@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.0.0](https://github.com/waitingsong/eslint-config/compare/v13.0.0...v14.0.0) (2024-10-05)
+
+
+### Features
+
+* bump to eslint v9 ([125b142](https://github.com/waitingsong/eslint-config/commit/125b142a0b8490a528bef98d20459439330e6382))
+
 ## [13.0.0](https://github.com/waitingsong/eslint-config/compare/v12.0.0...v13.0.0) (2024-09-04)
 
 
