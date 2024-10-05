@@ -25,6 +25,7 @@ const rules = {
   'unicorn/prefer-json-parse-buffer': [1],
   'unicorn/prefer-keyboard-event-key': [1],
   'unicorn/prefer-math-min-max': [1],
+  'unicorn/prefer-module': [1],
   'unicorn/prefer-math-trunc': [1],
   'unicorn/prefer-modern-math-apis': [2],
   'unicorn/prefer-node-protocol': [1],
