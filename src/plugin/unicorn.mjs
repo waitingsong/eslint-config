@@ -12,6 +12,7 @@ const rules = {
       },
     },
   ],
+  'unicorn/no-new-buffer': [2],
   'unicorn/no-thenable': [2],
   'unicorn/no-useless-spread': [1],
   'unicorn/prefer-array-flat': [1],
