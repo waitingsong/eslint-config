@@ -35,6 +35,7 @@ const rules = {
   'unicorn/prefer-string-slice': [2],
   'unicorn/prefer-type-error': [1],
   'unicorn/text-encoding-identifier-case': [1],
+  'unicorn/throw-new-error': [1],
 }
 
 export const unicornPluginRules = [
