@@ -86,6 +86,15 @@ export const strictRules = {
       },
     },
   ],
+
+  '@typescript-eslint/no-unused-expressions': [
+    2,
+    {
+      allowShortCircuit: true,
+      allowTernary: false,
+      allowTaggedTemplates: false,
+    },
+  ],
 }
 
 

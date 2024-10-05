@@ -128,6 +128,15 @@ export const lintRules = {
   'prefer-spread': 1,
   radix: 2,
   'require-unicode-regexp': 1,
+
+  '@typescript-eslint/no-unused-expressions': [
+    2,
+    {
+      allowShortCircuit: true,
+      allowTernary: false,
+      allowTaggedTemplates: false,
+    },
+  ],
 }
 
 
