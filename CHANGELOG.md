@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.10.0](https://github.com/waitingsong/eslint-config/compare/v14.9.0...v14.10.0) (2024-10-05)
+
+
+### Features
+
+* add rule unicorn/throw-new-error ([10d38fb](https://github.com/waitingsong/eslint-config/commit/10d38fb617c0279ce21c9aaaead7b4d60a3f4999))
+
 ## [14.9.0](https://github.com/waitingsong/eslint-config/compare/v14.8.0...v14.9.0) (2024-10-05)
 
 
