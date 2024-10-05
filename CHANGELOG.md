@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.1.0](https://github.com/waitingsong/eslint-config/compare/v14.0.0...v14.1.0) (2024-10-05)
+
+
+### Features
+
+* add named property of import/order ([fd70998](https://github.com/waitingsong/eslint-config/commit/fd709981146fb90b7298ace5c7f8313f21d8cc04))
+
 ## [14.0.0](https://github.com/waitingsong/eslint-config/compare/v13.0.0...v14.0.0) (2024-10-05)
 
 
