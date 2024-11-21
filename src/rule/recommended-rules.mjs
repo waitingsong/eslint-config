@@ -2,6 +2,8 @@ import stylistic from '@stylistic/eslint-plugin'
 
 // https://eslint.style/packages/default
 export const stylesRules = {
+  '@stylistic/indent': ['error', 2],
+  '@stylistic/indent-binary-ops': [0, 2],
   '@stylistic/func-call-spacing': ['error', 'never'],
   '@stylistic/function-paren-newline': [1, 'multiline-arguments'],
   '@stylistic/implicit-arrow-linebreak': 2,
