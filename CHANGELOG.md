@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [15.2.1](https://github.com/waitingsong/eslint-config/compare/v15.2.0...v15.2.1) (2024-11-21)
+
 ## [15.2.0](https://github.com/waitingsong/eslint-config/compare/v15.1.1...v15.2.0) (2024-11-21)
 
 
