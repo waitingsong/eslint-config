@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
 import eslint from '@eslint/js'
 import stylistic from '@stylistic/eslint-plugin'
