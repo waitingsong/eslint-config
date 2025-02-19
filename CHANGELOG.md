@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [16.0.0](https://github.com/waitingsong/eslint-config/compare/v15.2.2...v16.0.0) (2025-02-19)
+
+
+### Features
+
+* add rules ([3d96429](https://github.com/waitingsong/eslint-config/commit/3d964298a082b370acada01f30c700738bb125ea))
+* bump deps version ([9223cf4](https://github.com/waitingsong/eslint-config/commit/9223cf457d3ae0bab1c9ffa56dbb5d2fe70915a7))
+
 ### [15.2.2](https://github.com/waitingsong/eslint-config/compare/v15.2.1...v15.2.2) (2024-11-21)
 
 
