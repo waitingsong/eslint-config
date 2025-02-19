@@ -1,6 +1,8 @@
 // https://github.com/sindresorhus/eslint-plugin-unicorn#readme
 
 const rules = {
+  'unicorn/consistent-assert': 0,
+  'unicorn/consistent-date-clone': 1,
   'unicorn/consistent-existence-index-check': [1],
   'unicorn/filename-case': [
     2,
@@ -13,6 +15,8 @@ const rules = {
       },
     },
   ],
+  'unicorn/no-accessor-recursion': 2,
+  'unicorn/no-instanceof-builtins': 1,
   'unicorn/no-new-buffer': [2],
   'unicorn/no-thenable': [2],
   'unicorn/no-useless-spread': [1],
