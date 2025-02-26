@@ -94,6 +94,7 @@ export const lintRules = {
   '@typescript-eslint/no-extraneous-class': 0,
   '@typescript-eslint/no-require-imports': 2,
   '@typescript-eslint/prefer-includes': 1,
+  '@typescript-eslint/prefer-nullish-coalescing': 1,
   '@typescript-eslint/prefer-optional-chain': 1,
   '@typescript-eslint/require-array-sort-compare': 2,
   '@typescript-eslint/require-await': 0,
