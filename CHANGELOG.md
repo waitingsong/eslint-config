@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [16.1.0](https://github.com/waitingsong/eslint-config/compare/v16.0.0...v16.1.0) (2025-02-26)
+
+
+### Features
+
+* set rule "@typescript-eslint/prefer-nullish-coalescing" to warning ([42ce9d3](https://github.com/waitingsong/eslint-config/commit/42ce9d3aa32d5039b9dd58ea483b6265ebeddb52))
+
 ## [16.0.0](https://github.com/waitingsong/eslint-config/compare/v15.2.2...v16.0.0) (2025-02-19)
 
 
